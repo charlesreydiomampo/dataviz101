@@ -32,11 +32,11 @@ with open('line2.geojson') as f:
 with open('line3.geojson') as f:
     line3_geojson = json.load(f)
 
-with open('line1.geojson') as f:
+with open('route_line1.geojson') as f:
     line1_linestring_geojson = convert_points_to_linestring(json.load(f))
-with open('line2.geojson') as f:
+with open('route_line2.geojson') as f:
     line2_linestring_geojson = convert_points_to_linestring(json.load(f))
-with open('line3.geojson') as f:
+with open('route_line3.geojson') as f:
     line3_linestring_geojson = convert_points_to_linestring(json.load(f))
 
 line1_points = [(feature['geometry']['coordinates'][::-1], feature['properties']['station_name']) for feature in line1_geojson['features']]
