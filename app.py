@@ -9,7 +9,6 @@ import calendar
 import dash_bootstrap_components as dbc
 from shapely.geometry import LineString
 
-
 # Function to convert points to LineString
 def convert_points_to_linestring(geojson):
     points = [feature["geometry"]["coordinates"] for feature in geojson["features"]]
@@ -23,8 +22,7 @@ def convert_points_to_linestring(geojson):
         }]
     }
 
-
-# Load the GeoJSON data
+# Load the GeoJSON data for points
 with open('line1.geojson') as f:
     line1_geojson = json.load(f)
 with open('line2.geojson') as f:
@@ -32,12 +30,13 @@ with open('line2.geojson') as f:
 with open('line3.geojson') as f:
     line3_geojson = json.load(f)
 
+# Load the GeoJSON data for LineStrings
 with open('route_line1.geojson') as f:
-    line1_linestring_geojson = convert_points_to_linestring(json.load(f))
+    route_line1_geojson = json.load(f)
 with open('route_line2.geojson') as f:
-    line2_linestring_geojson = convert_points_to_linestring(json.load(f))
+    route_line2_geojson = json.load(f)
 with open('route_line3.geojson') as f:
-    line3_linestring_geojson = convert_points_to_linestring(json.load(f))
+    route_line3_geojson = json.load(f)
 
 line1_points = [(feature['geometry']['coordinates'][::-1], feature['properties']['station_name']) for feature in line1_geojson['features']]
 line2_points = [(feature['geometry']['coordinates'][::-1], feature['properties']['station_name']) for feature in line2_geojson['features']]
@@ -70,7 +69,7 @@ raw_data_ = pd.read_csv("Raw-Data-2016-2022.csv")
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 server = app.server
 initial_lat = 14.5547  # Latitude for Makati
-initial_lon = 121.0244 # Longitude for Makati
+initial_lon = 121.0244  # Longitude for Makati
 
 # Define the layout of the app
 app.layout = html.Div([
@@ -78,38 +77,38 @@ app.layout = html.Div([
     html.Div([
         # Map container
         html.Div([
-        dl.Map(center=[initial_lat, initial_lon], zoom=10, children=[
-            dl.TileLayer(),
-            # LineString layers for connecting lines
-            dl.GeoJSON(data=line1_linestring_geojson, options={'style': {'color': '#4dc262', 'weight': 5}}),
-            dl.GeoJSON(data=line2_linestring_geojson, options={'style': {'color': '#972db8', 'weight': 5}}),
-            dl.GeoJSON(data=line3_linestring_geojson, options={'style': {'color': '#2596be', 'weight': 5}}),
-            *[dl.CircleMarker(center=coords, radius=5, color='#4dc262', fill=True, fillOpacity=1.0, children=[
-            dl.Tooltip(name)
+            dl.Map(center=[initial_lat, initial_lon], zoom=20, children=[
+                dl.TileLayer(),
+                # LineString layers for connecting lines
+                dl.GeoJSON(data=route_line1_geojson, options={'style': {'color': '#4dc262', 'weight': 5}}),
+                dl.GeoJSON(data=route_line2_geojson, options={'style': {'color': '#972db8', 'weight': 5}}),
+                dl.GeoJSON(data=route_line3_geojson, options={'style': {'color': '#2596be', 'weight': 5}}),
+                *[dl.CircleMarker(center=coords, radius=5, color='#4dc262', fill=True, fillOpacity=1.0, children=[
+                    dl.Tooltip(name)
                 ]) for coords, name in line1_points],
-            *[dl.CircleMarker(center=coords, radius=5, color='#972db8', fill=True, fillOpacity=1.0, children=[
-            dl.Tooltip(name)
+                *[dl.CircleMarker(center=coords, radius=5, color='#972db8', fill=True, fillOpacity=1.0, children=[
+                    dl.Tooltip(name)
                 ]) for coords, name in line2_points],
-            *[dl.CircleMarker(center=coords, radius=5, color='#2596be', fill=True, fillOpacity=1.0, children=[
-            dl.Tooltip(name)
+                *[dl.CircleMarker(center=coords, radius=5, color='#2596be', fill=True, fillOpacity=1.0, children=[
+                    dl.Tooltip(name)
                 ]) for coords, name in line3_points],
-        ], style={'width': '100%', 'height': '100vh'})
-    ], style={'width': '50%', 'float': 'left'}),
+            ], style={'width': '100%', 'height': '100vh'})
+        ], style={'width': '50%', 'float': 'left'}),
 
         # Chart container
         html.Div([
             html.Div([html.H2("Average Number of Passengers of Each Station")],
                      style={'text-align': 'center'}),
             dcc.RadioItems(
-            id='line-selector',
-            options=[
-                {'label': 'LRT-1', 'value': 'LRT1'},
-                {'label': 'LRT-2', 'value': 'LRT2'},
-                {'label': 'MRT-3', 'value': 'MRT3'}
-            ],
-            value='LRT-2',
-            labelStyle={'display': 'inline-block', 'margin-right': '15px'},  # Keep display as 'inline-block'
-        ),
+                id='line-selector',
+                options=[
+                    {'label': 'LRT-1', 'value': 'LRT1'},
+                    {'label': 'LRT-2', 'value': 'LRT2'},
+                    {'label': 'MRT-3', 'value': 'MRT3'}
+                ],
+                value='LRT-2',
+                labelStyle={'display': 'inline-block', 'margin-right': '15px'},  # Keep display as 'inline-block'
+            ),
             dcc.Dropdown(
                 id='station-selector',
                 value='Recto Station'
@@ -188,10 +187,9 @@ def update_output(selected_station, selected_line, time_category):
         df = raw_data_
     
         heatmap_data = df[df["Station"] == selected_station]
-        fig = px.imshow(heatmap_data.pivot_table(index = "Time", columns = "weekday", values = "Value",
-                                         aggfunc = "sum"))
-        fig.update_xaxes(side="bottom", title = "Day of the Week")
-        fig.update_layout(title={'text':f'Hourly Heatmap for {selected_station}'}, title_x=0.5)
+        fig = px.imshow(heatmap_data.pivot_table(index="Time", columns="weekday", values="Value", aggfunc="sum"))
+        fig.update_xaxes(side="bottom", title="Day of the Week")
+        fig.update_layout(title={'text': f'Hourly Heatmap for {selected_station}'}, title_x=0.5)
     else:
         df = data[data['Line'] == selected_line]
         
@@ -203,13 +201,11 @@ def update_output(selected_station, selected_line, time_category):
             time_cat = "Year"        
         
         heatmap_data = df[df["Station"] == selected_station]
-        fig = px.imshow(heatmap_data.pivot_table(index = time_cat, columns = "Weekday", values = "Value",
-                                         aggfunc = "sum"))
-        fig.update_xaxes(side="bottom", title = "Day of the Week")
-        fig.update_layout(title={'text':f'Heatmap for {selected_station}'}, title_x=0.5)
+        fig = px.imshow(heatmap_data.pivot_table(index=time_cat, columns="Weekday", values="Value", aggfunc="sum"))
+        fig.update_xaxes(side="bottom", title="Day of the Week")
+        fig.update_layout(title={'text': f'Heatmap for {selected_station}'}, title_x=0.5)
     return fig
-    
-    
+
 # Run the app
 if __name__ == '__main__':
     app.run_server(debug=True)
