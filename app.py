@@ -68,6 +68,7 @@ raw_data_ = pd.read_csv("Raw-Data-2016-2022.csv")
 
 # Initialize the Dash app
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+server = app.server
 initial_lat = 14.5547  # Latitude for Makati
 initial_lon = 121.0244 # Longitude for Makati
 
