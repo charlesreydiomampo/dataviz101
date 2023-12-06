@@ -8,4 +8,5 @@ matplotlib
 dash_leaflet
 dash_bootstrap_components
 shapely
+openpyxl
 gunicorn
