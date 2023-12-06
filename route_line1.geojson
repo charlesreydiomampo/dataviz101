@@ -1,0 +1,1340 @@
+{
+    "type": "FeatureCollection",
+    "generator": "JOSM",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "@relations": "[{\"role\":\"stop_exit_only\",\"rel\":8000260,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Baclaran\",\"name\":\"LRT Line 1: Baclaran → Roosevelt\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Roosevelt\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}}]",
+                "@id": "node/7569423013"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.02158560000,
+                    14.65745510000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@relations": "[{\"role\":\"stop_entry_only\",\"rel\":8000260,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Baclaran\",\"name\":\"LRT Line 1: Baclaran → Roosevelt\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Roosevelt\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}}]",
+                "@id": "node/4475471872"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.99859740000,
+                    14.53455860000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5191404483",
+                "@relations": "[{\"role\":\"stop\",\"rel\":110418,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Roosevelt\",\"name\":\"LRT Line 1: Roosevelt → Baclaran\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Baclaran\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}},{\"role\":\"stop\",\"rel\":10463194,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Monumento\",\"name\":\"LRT Line 1: Monumento → Baclaran\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Baclaran\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}}]"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.98454650000,
+                    14.58262290000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/10053766604",
+                "@relations": "[{\"role\":\"stop\",\"rel\":8000260,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Baclaran\",\"name\":\"LRT Line 1: Baclaran → Roosevelt\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Roosevelt\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}}]"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.98458140000,
+                    14.58263190000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/4475471875",
+                "@relations": "[{\"role\":\"stop\",\"rel\":110418,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Roosevelt\",\"name\":\"LRT Line 1: Roosevelt → Baclaran\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Baclaran\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}},{\"role\":\"stop\",\"rel\":10463194,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Monumento\",\"name\":\"LRT Line 1: Monumento → Baclaran\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Baclaran\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}}]"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.99861260000,
+                    14.54768420000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@relations": "[{\"role\":\"stop\",\"rel\":8000260,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Baclaran\",\"name\":\"LRT Line 1: Baclaran → Roosevelt\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Roosevelt\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}},{\"role\":\"stop_exit_only\",\"rel\":10463195,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Baclaran\",\"name\":\"LRT Line 1: Baclaran → Monumento\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Monumento\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}}]",
+                "@id": "node/7569408480"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.98392250000,
+                    14.65464930000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7330612086",
+                "@relations": "[{\"role\":\"stop\",\"rel\":110418,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Roosevelt\",\"name\":\"LRT Line 1: Roosevelt → Baclaran\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Baclaran\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}},{\"role\":\"stop\",\"rel\":10463194,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Monumento\",\"name\":\"LRT Line 1: Monumento → Baclaran\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Baclaran\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}}]"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.98170540000,
+                    14.59244680000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@relations": "[{\"role\":\"stop\",\"rel\":8000260,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Baclaran\",\"name\":\"LRT Line 1: Baclaran → Roosevelt\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Roosevelt\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}},{\"role\":\"stop\",\"rel\":10463195,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Baclaran\",\"name\":\"LRT Line 1: Baclaran → Monumento\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Monumento\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}}]",
+                "@id": "node/7569408467"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.98291340000,
+                    14.62282470000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@relations": "[{\"role\":\"stop\",\"rel\":8000260,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Baclaran\",\"name\":\"LRT Line 1: Baclaran → Roosevelt\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Roosevelt\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}},{\"role\":\"stop\",\"rel\":10463195,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Baclaran\",\"name\":\"LRT Line 1: Baclaran → Monumento\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Monumento\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}}]",
+                "@id": "node/7330612087"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.98153260000,
+                    14.59313930000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@relations": "[{\"role\":\"stop\",\"rel\":8000260,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Baclaran\",\"name\":\"LRT Line 1: Baclaran → Roosevelt\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Roosevelt\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}},{\"role\":\"stop\",\"rel\":10463195,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Baclaran\",\"name\":\"LRT Line 1: Baclaran → Monumento\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Monumento\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}}]",
+                "@id": "node/5527137132"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.00062340000,
+                    14.53895060000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@relations": "[{\"role\":\"stop\",\"rel\":8000260,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Baclaran\",\"name\":\"LRT Line 1: Baclaran → Roosevelt\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Roosevelt\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}}]",
+                "@id": "node/10053766609"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.99864740000,
+                    14.54769020000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5191404472",
+                "@relations": "[{\"role\":\"stop\",\"rel\":110418,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Roosevelt\",\"name\":\"LRT Line 1: Roosevelt → Baclaran\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Baclaran\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}},{\"role\":\"stop\",\"rel\":10463194,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Monumento\",\"name\":\"LRT Line 1: Monumento → Baclaran\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Baclaran\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}}]"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.98353450000,
+                    14.64442500000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@relations": "[{\"role\":\"stop\",\"rel\":8000260,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Baclaran\",\"name\":\"LRT Line 1: Baclaran → Roosevelt\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Roosevelt\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}}]",
+                "@id": "node/7569423003"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.00437280000,
+                    14.65739920000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@relations": "[{\"role\":\"stop\",\"rel\":8000260,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Baclaran\",\"name\":\"LRT Line 1: Baclaran → Roosevelt\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Roosevelt\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}},{\"role\":\"stop\",\"rel\":10463195,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Baclaran\",\"name\":\"LRT Line 1: Baclaran → Monumento\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Monumento\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}}]",
+                "@id": "node/7569408470"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.98146200000,
+                    14.63062160000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@relations": "[{\"role\":\"stop\",\"rel\":110418,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Roosevelt\",\"name\":\"LRT Line 1: Roosevelt → Baclaran\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Baclaran\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}},{\"role\":\"stop\",\"rel\":10463194,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Monumento\",\"name\":\"LRT Line 1: Monumento → Baclaran\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Baclaran\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}}]",
+                "@id": "node/5191404486"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.99473730000,
+                    14.56346050000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@relations": "[{\"role\":\"stop\",\"rel\":8000260,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Baclaran\",\"name\":\"LRT Line 1: Baclaran → Roosevelt\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Roosevelt\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}},{\"role\":\"stop\",\"rel\":10463195,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Baclaran\",\"name\":\"LRT Line 1: Baclaran → Monumento\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Monumento\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}}]",
+                "@id": "node/7569408478"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.98358220000,
+                    14.64441880000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@relations": "[{\"role\":\"stop_exit_only\",\"rel\":110418,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Roosevelt\",\"name\":\"LRT Line 1: Roosevelt → Baclaran\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Baclaran\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}},{\"role\":\"stop_exit_only\",\"rel\":10463194,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Monumento\",\"name\":\"LRT Line 1: Monumento → Baclaran\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Baclaran\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}}]",
+                "@id": "node/4475471873"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.99805020000,
+                    14.53391310000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@relations": "[{\"role\":\"stop_entry_only\",\"rel\":110418,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Roosevelt\",\"name\":\"LRT Line 1: Roosevelt → Baclaran\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Baclaran\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}}]",
+                "@id": "node/5397289145"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.02068810000,
+                    14.65762170000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/10053766605",
+                "@relations": "[{\"role\":\"stop\",\"rel\":8000260,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Baclaran\",\"name\":\"LRT Line 1: Baclaran → Roosevelt\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Roosevelt\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}}]"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.98802620000,
+                    14.57658920000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@relations": "[{\"role\":\"stop\",\"rel\":110418,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Roosevelt\",\"name\":\"LRT Line 1: Roosevelt → Baclaran\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Baclaran\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}},{\"role\":\"stop\",\"rel\":10463194,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Monumento\",\"name\":\"LRT Line 1: Monumento → Baclaran\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Baclaran\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}}]",
+                "@id": "node/5191404474"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.98142050000,
+                    14.63060680000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@relations": "[{\"role\":\"stop\",\"rel\":110418,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Roosevelt\",\"name\":\"LRT Line 1: Roosevelt → Baclaran\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Baclaran\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}},{\"role\":\"stop\",\"rel\":10463194,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Monumento\",\"name\":\"LRT Line 1: Monumento → Baclaran\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Baclaran\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}}]",
+                "@id": "node/5191404477"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.98271070000,
+                    14.61666560000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@relations": "[{\"role\":\"stop\",\"rel\":8000260,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Baclaran\",\"name\":\"LRT Line 1: Baclaran → Roosevelt\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Roosevelt\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}},{\"role\":\"stop\",\"rel\":10463195,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Baclaran\",\"name\":\"LRT Line 1: Baclaran → Monumento\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Monumento\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}}]",
+                "@id": "node/7569408466"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.98274210000,
+                    14.61666950000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5191404470",
+                "@relations": "[{\"role\":\"stop\",\"rel\":110418,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Roosevelt\",\"name\":\"LRT Line 1: Roosevelt → Baclaran\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Baclaran\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}}]"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.00351720000,
+                    14.65742200000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@relations": "[{\"role\":\"stop\",\"rel\":110418,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Roosevelt\",\"name\":\"LRT Line 1: Roosevelt → Baclaran\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Baclaran\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}},{\"role\":\"stop\",\"rel\":10463194,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Monumento\",\"name\":\"LRT Line 1: Monumento → Baclaran\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Baclaran\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}}]",
+                "@id": "node/5191404485"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.99156060000,
+                    14.57021490000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/10053766606",
+                "@relations": "[{\"role\":\"stop\",\"rel\":8000260,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Baclaran\",\"name\":\"LRT Line 1: Baclaran → Roosevelt\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Roosevelt\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}}]"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.99159040000,
+                    14.57023290000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@relations": "[{\"role\":\"stop\",\"rel\":8000260,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Baclaran\",\"name\":\"LRT Line 1: Baclaran → Roosevelt\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Roosevelt\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}},{\"role\":\"stop\",\"rel\":10463195,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Baclaran\",\"name\":\"LRT Line 1: Baclaran → Monumento\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Monumento\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}}]",
+                "@id": "node/7569408465"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.98248260000,
+                    14.61111530000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5191404471",
+                "@relations": "[{\"role\":\"stop\",\"rel\":110418,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Roosevelt\",\"name\":\"LRT Line 1: Roosevelt → Baclaran\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Baclaran\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}},{\"role\":\"stop_entry_only\",\"rel\":10463194,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Monumento\",\"name\":\"LRT Line 1: Monumento → Baclaran\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Baclaran\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}}]"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.98384780000,
+                    14.65383390000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/10053766608",
+                "@relations": "[{\"role\":\"stop\",\"rel\":8000260,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Baclaran\",\"name\":\"LRT Line 1: Baclaran → Roosevelt\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Roosevelt\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}}]"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.99717880000,
+                    14.55406010000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5191404473",
+                "@relations": "[{\"role\":\"stop\",\"rel\":110418,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Roosevelt\",\"name\":\"LRT Line 1: Roosevelt → Baclaran\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Baclaran\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}},{\"role\":\"stop\",\"rel\":10463194,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Monumento\",\"name\":\"LRT Line 1: Monumento → Baclaran\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Baclaran\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}}]"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.98226370000,
+                    14.63602580000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@relations": "[{\"role\":\"stop\",\"rel\":110418,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Roosevelt\",\"name\":\"LRT Line 1: Roosevelt → Baclaran\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Baclaran\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}},{\"role\":\"stop\",\"rel\":10463194,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Monumento\",\"name\":\"LRT Line 1: Monumento → Baclaran\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Baclaran\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}}]",
+                "@id": "node/5191404476"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.98287170000,
+                    14.62282580000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5191404484",
+                "@relations": "[{\"role\":\"stop\",\"rel\":110418,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Roosevelt\",\"name\":\"LRT Line 1: Roosevelt → Baclaran\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Baclaran\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}},{\"role\":\"stop\",\"rel\":10463194,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Monumento\",\"name\":\"LRT Line 1: Monumento → Baclaran\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Baclaran\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}}]"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.98799860000,
+                    14.57657920000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/4475471874",
+                "@relations": "[{\"role\":\"stop\",\"rel\":110418,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Roosevelt\",\"name\":\"LRT Line 1: Roosevelt → Baclaran\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Baclaran\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}},{\"role\":\"stop\",\"rel\":10463194,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Monumento\",\"name\":\"LRT Line 1: Monumento → Baclaran\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Baclaran\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}}]"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.99714440000,
+                    14.55405370000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "relation/110418",
+                "name": "LRT Line 1: Roosevelt → Baclaran",
+                "air_conditioning": "yes",
+                "public_transport:version": "2",
+                "type": "route",
+                "ref": "1",
+                "from": "Roosevelt",
+                "colour": "#008000",
+                "operator:wikipedia": "en:Light Rail Manila Corporation",
+                "operator:wikidata": "Q65087474",
+                "website": "http://www.lrmc.com.ph",
+                "network": "Manila LRT",
+                "to": "Baclaran",
+                "wikidata": "Q4165124",
+                "operator": "Light Rail Manila Corporation",
+                "route": "light_rail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        121.03132120000,
+                        14.65410060000
+                    ],
+                    [
+                        121.03073810000,
+                        14.65499140000
+                    ],
+                    [
+                        121.03055050000,
+                        14.65528300000
+                    ],
+                    [
+                        121.03047000000,
+                        14.65540690000
+                    ],
+                    [
+                        121.03041010000,
+                        14.65549550000
+                    ],
+                    [
+                        121.03035330000,
+                        14.65557160000
+                    ],
+                    [
+                        121.03029180000,
+                        14.65562900000
+                    ],
+                    [
+                        121.03021770000,
+                        14.65568890000
+                    ],
+                    [
+                        121.03011430000,
+                        14.65574990000
+                    ],
+                    [
+                        121.03003940000,
+                        14.65578800000
+                    ],
+                    [
+                        121.02995360000,
+                        14.65582340000
+                    ],
+                    [
+                        121.02984660000,
+                        14.65586280000
+                    ],
+                    [
+                        121.02976190000,
+                        14.65588570000
+                    ],
+                    [
+                        121.02827440000,
+                        14.65622330000
+                    ],
+                    [
+                        121.02649490000,
+                        14.65641660000
+                    ],
+                    [
+                        121.02608430000,
+                        14.65650280000
+                    ],
+                    [
+                        121.02363150000,
+                        14.65705560000
+                    ],
+                    [
+                        121.02342650000,
+                        14.65710280000
+                    ],
+                    [
+                        121.02225580000,
+                        14.65737250000
+                    ],
+                    [
+                        121.02184280000,
+                        14.65745290000
+                    ],
+                    [
+                        121.02163840000,
+                        14.65748700000
+                    ],
+                    [
+                        121.02068810000,
+                        14.65762170000
+                    ],
+                    [
+                        121.02065600000,
+                        14.65762590000
+                    ],
+                    [
+                        121.02038130000,
+                        14.65766200000
+                    ],
+                    [
+                        121.02026340000,
+                        14.65766850000
+                    ],
+                    [
+                        121.01995910000,
+                        14.65767700000
+                    ],
+                    [
+                        121.01339250000,
+                        14.65758170000
+                    ],
+                    [
+                        121.01302610000,
+                        14.65757460000
+                    ],
+                    [
+                        121.01251160000,
+                        14.65756950000
+                    ],
+                    [
+                        121.00888350000,
+                        14.65750940000
+                    ],
+                    [
+                        121.00615250000,
+                        14.65746220000
+                    ],
+                    [
+                        121.00531250000,
+                        14.65744920000
+                    ],
+                    [
+                        121.00351720000,
+                        14.65742200000
+                    ],
+                    [
+                        121.00348110000,
+                        14.65742150000
+                    ],
+                    [
+                        120.99857650000,
+                        14.65734670000
+                    ],
+                    [
+                        120.99043960000,
+                        14.65724500000
+                    ],
+                    [
+                        120.99022530000,
+                        14.65724070000
+                    ],
+                    [
+                        120.98520420000,
+                        14.65716730000
+                    ],
+                    [
+                        120.98500070000,
+                        14.65714820000
+                    ],
+                    [
+                        120.98489970000,
+                        14.65713020000
+                    ],
+                    [
+                        120.98477760000,
+                        14.65710270000
+                    ],
+                    [
+                        120.98460480000,
+                        14.65704720000
+                    ],
+                    [
+                        120.98448660000,
+                        14.65699200000
+                    ],
+                    [
+                        120.98436190000,
+                        14.65691400000
+                    ],
+                    [
+                        120.98425240000,
+                        14.65682820000
+                    ],
+                    [
+                        120.98419220000,
+                        14.65675690000
+                    ],
+                    [
+                        120.98413950000,
+                        14.65668740000
+                    ],
+                    [
+                        120.98410560000,
+                        14.65663290000
+                    ],
+                    [
+                        120.98404760000,
+                        14.65652690000
+                    ],
+                    [
+                        120.98400580000,
+                        14.65642200000
+                    ],
+                    [
+                        120.98396800000,
+                        14.65631170000
+                    ],
+                    [
+                        120.98393200000,
+                        14.65613400000
+                    ],
+                    [
+                        120.98392300000,
+                        14.65535420000
+                    ],
+                    [
+                        120.98392070000,
+                        14.65515310000
+                    ],
+                    [
+                        120.98391910000,
+                        14.65502080000
+                    ],
+                    [
+                        120.98391300000,
+                        14.65497540000
+                    ],
+                    [
+                        120.98389460000,
+                        14.65491440000
+                    ],
+                    [
+                        120.98388560000,
+                        14.65484710000
+                    ],
+                    [
+                        120.98384780000,
+                        14.65383390000
+                    ],
+                    [
+                        120.98384500000,
+                        14.65375680000
+                    ],
+                    [
+                        120.98370610000,
+                        14.64994810000
+                    ],
+                    [
+                        120.98366930000,
+                        14.64860490000
+                    ],
+                    [
+                        120.98359170000,
+                        14.64645100000
+                    ],
+                    [
+                        120.98353450000,
+                        14.64442500000
+                    ],
+                    [
+                        120.98347920000,
+                        14.64283590000
+                    ],
+                    [
+                        120.98343040000,
+                        14.64126120000
+                    ],
+                    [
+                        120.98338490000,
+                        14.64005070000
+                    ],
+                    [
+                        120.98334030000,
+                        14.63877140000
+                    ],
+                    [
+                        120.98327350000,
+                        14.63834600000
+                    ],
+                    [
+                        120.98323770000,
+                        14.63820180000
+                    ],
+                    [
+                        120.98314050000,
+                        14.63789200000
+                    ],
+                    [
+                        120.98276150000,
+                        14.63707640000
+                    ],
+                    [
+                        120.98240760000,
+                        14.63632960000
+                    ],
+                    [
+                        120.98226370000,
+                        14.63602580000
+                    ],
+                    [
+                        120.98180040000,
+                        14.63501980000
+                    ],
+                    [
+                        120.98159800000,
+                        14.63460630000
+                    ],
+                    [
+                        120.98103470000,
+                        14.63338400000
+                    ],
+                    [
+                        120.98080010000,
+                        14.63288720000
+                    ],
+                    [
+                        120.98071960000,
+                        14.63267420000
+                    ],
+                    [
+                        120.98068360000,
+                        14.63244970000
+                    ],
+                    [
+                        120.98068280000,
+                        14.63190360000
+                    ],
+                    [
+                        120.98070720000,
+                        14.63174390000
+                    ],
+                    [
+                        120.98077440000,
+                        14.63153610000
+                    ],
+                    [
+                        120.98087560000,
+                        14.63127850000
+                    ],
+                    [
+                        120.98101170000,
+                        14.63107680000
+                    ],
+                    [
+                        120.98142050000,
+                        14.63060680000
+                    ],
+                    [
+                        120.98272700000,
+                        14.62920520000
+                    ],
+                    [
+                        120.98288100000,
+                        14.62893350000
+                    ],
+                    [
+                        120.98295340000,
+                        14.62876720000
+                    ],
+                    [
+                        120.98299880000,
+                        14.62859520000
+                    ],
+                    [
+                        120.98304390000,
+                        14.62824940000
+                    ],
+                    [
+                        120.98304590000,
+                        14.62811020000
+                    ],
+                    [
+                        120.98297450000,
+                        14.62546870000
+                    ],
+                    [
+                        120.98287170000,
+                        14.62282580000
+                    ],
+                    [
+                        120.98271080000,
+                        14.61719420000
+                    ],
+                    [
+                        120.98271070000,
+                        14.61666560000
+                    ],
+                    [
+                        120.98269980000,
+                        14.61629260000
+                    ],
+                    [
+                        120.98269810000,
+                        14.61623500000
+                    ],
+                    [
+                        120.98261410000,
+                        14.61428220000
+                    ],
+                    [
+                        120.98256920000,
+                        14.61317840000
+                    ],
+                    [
+                        120.98243820000,
+                        14.61112010000
+                    ],
+                    [
+                        120.98223720000,
+                        14.60867530000
+                    ],
+                    [
+                        120.98208040000,
+                        14.60645160000
+                    ],
+                    [
+                        120.98199780000,
+                        14.60534620000
+                    ],
+                    [
+                        120.98195060000,
+                        14.60449800000
+                    ],
+                    [
+                        120.98188920000,
+                        14.60346940000
+                    ],
+                    [
+                        120.98185150000,
+                        14.60254150000
+                    ],
+                    [
+                        120.98182940000,
+                        14.60232590000
+                    ],
+                    [
+                        120.98179820000,
+                        14.60211080000
+                    ],
+                    [
+                        120.98144120000,
+                        14.59981580000
+                    ],
+                    [
+                        120.98132200000,
+                        14.59902770000
+                    ],
+                    [
+                        120.98127640000,
+                        14.59869660000
+                    ],
+                    [
+                        120.98122240000,
+                        14.59849930000
+                    ],
+                    [
+                        120.98115530000,
+                        14.59834130000
+                    ],
+                    [
+                        120.98101800000,
+                        14.59803460000
+                    ],
+                    [
+                        120.98092430000,
+                        14.59780920000
+                    ],
+                    [
+                        120.98086750000,
+                        14.59761890000
+                    ],
+                    [
+                        120.98080760000,
+                        14.59738830000
+                    ],
+                    [
+                        120.98077990000,
+                        14.59717300000
+                    ],
+                    [
+                        120.98071790000,
+                        14.59649920000
+                    ],
+                    [
+                        120.98068310000,
+                        14.59608990000
+                    ],
+                    [
+                        120.98067780000,
+                        14.59585190000
+                    ],
+                    [
+                        120.98072650000,
+                        14.59560380000
+                    ],
+                    [
+                        120.98086930000,
+                        14.59515110000
+                    ],
+                    [
+                        120.98133640000,
+                        14.59356180000
+                    ],
+                    [
+                        120.98135410000,
+                        14.59350180000
+                    ],
+                    [
+                        120.98137220000,
+                        14.59345990000
+                    ],
+                    [
+                        120.98141530000,
+                        14.59336010000
+                    ],
+                    [
+                        120.98143630000,
+                        14.59331160000
+                    ],
+                    [
+                        120.98145370000,
+                        14.59327370000
+                    ],
+                    [
+                        120.98146650000,
+                        14.59323650000
+                    ],
+                    [
+                        120.98170540000,
+                        14.59244680000
+                    ],
+                    [
+                        120.98179620000,
+                        14.59214690000
+                    ],
+                    [
+                        120.98184480000,
+                        14.59193640000
+                    ],
+                    [
+                        120.98187710000,
+                        14.59171540000
+                    ],
+                    [
+                        120.98189460000,
+                        14.59145920000
+                    ],
+                    [
+                        120.98192550000,
+                        14.59097880000
+                    ],
+                    [
+                        120.98193800000,
+                        14.59077340000
+                    ],
+                    [
+                        120.98195370000,
+                        14.59051420000
+                    ],
+                    [
+                        120.98198180000,
+                        14.59006230000
+                    ],
+                    [
+                        120.98210840000,
+                        14.58927960000
+                    ],
+                    [
+                        120.98212700000,
+                        14.58905070000
+                    ],
+                    [
+                        120.98213820000,
+                        14.58881180000
+                    ],
+                    [
+                        120.98214110000,
+                        14.58857660000
+                    ],
+                    [
+                        120.98211130000,
+                        14.58836860000
+                    ],
+                    [
+                        120.98201080000,
+                        14.58791970000
+                    ],
+                    [
+                        120.98197500000,
+                        14.58769520000
+                    ],
+                    [
+                        120.98197170000,
+                        14.58746420000
+                    ],
+                    [
+                        120.98200860000,
+                        14.58720700000
+                    ],
+                    [
+                        120.98207830000,
+                        14.58698860000
+                    ],
+                    [
+                        120.98217980000,
+                        14.58676780000
+                    ],
+                    [
+                        120.98238990000,
+                        14.58641750000
+                    ],
+                    [
+                        120.98249180000,
+                        14.58625250000
+                    ],
+                    [
+                        120.98269410000,
+                        14.58591060000
+                    ],
+                    [
+                        120.98438720000,
+                        14.58290560000
+                    ],
+                    [
+                        120.98454650000,
+                        14.58262290000
+                    ],
+                    [
+                        120.98570940000,
+                        14.58055940000
+                    ],
+                    [
+                        120.98776990000,
+                        14.57697640000
+                    ],
+                    [
+                        120.98799860000,
+                        14.57657920000
+                    ],
+                    [
+                        120.98862570000,
+                        14.57548940000
+                    ],
+                    [
+                        120.99130390000,
+                        14.57070010000
+                    ],
+                    [
+                        120.99156060000,
+                        14.57021490000
+                    ],
+                    [
+                        120.99175000000,
+                        14.56985710000
+                    ],
+                    [
+                        120.99473730000,
+                        14.56346050000
+                    ],
+                    [
+                        120.99493770000,
+                        14.56303220000
+                    ],
+                    [
+                        120.99510090000,
+                        14.56268150000
+                    ],
+                    [
+                        120.99516830000,
+                        14.56251740000
+                    ],
+                    [
+                        120.99521830000,
+                        14.56234830000
+                    ],
+                    [
+                        120.99556460000,
+                        14.56093050000
+                    ],
+                    [
+                        120.99657980000,
+                        14.55651130000
+                    ],
+                    [
+                        120.99700880000,
+                        14.55464380000
+                    ],
+                    [
+                        120.99714440000,
+                        14.55405370000
+                    ],
+                    [
+                        120.99722270000,
+                        14.55371200000
+                    ],
+                    [
+                        120.99849200000,
+                        14.54821550000
+                    ],
+                    [
+                        120.99861260000,
+                        14.54768420000
+                    ],
+                    [
+                        120.99870470000,
+                        14.54728010000
+                    ],
+                    [
+                        120.99930850000,
+                        14.54462800000
+                    ],
+                    [
+                        121.00037960000,
+                        14.53993020000
+                    ],
+                    [
+                        121.00052150000,
+                        14.53930050000
+                    ],
+                    [
+                        121.00058840000,
+                        14.53895190000
+                    ],
+                    [
+                        121.00069670000,
+                        14.53837960000
+                    ],
+                    [
+                        121.00071300000,
+                        14.53815790000
+                    ],
+                    [
+                        121.00071680000,
+                        14.53798000000
+                    ],
+                    [
+                        121.00068710000,
+                        14.53771920000
+                    ],
+                    [
+                        121.00062650000,
+                        14.53748680000
+                    ],
+                    [
+                        121.00054620000,
+                        14.53727780000
+                    ],
+                    [
+                        121.00044730000,
+                        14.53707770000
+                    ],
+                    [
+                        121.00032620000,
+                        14.53689000000
+                    ],
+                    [
+                        120.99923720000,
+                        14.53542960000
+                    ],
+                    [
+                        120.99870600000,
+                        14.53475100000
+                    ],
+                    [
+                        120.99861920000,
+                        14.53464110000
+                    ],
+                    [
+                        120.99857030000,
+                        14.53457850000
+                    ],
+                    [
+                        120.99805020000,
+                        14.53391310000
+                    ],
+                    [
+                        120.99802890000,
+                        14.53388580000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@relations": "[{\"role\":\"stop\",\"rel\":8000260,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Baclaran\",\"name\":\"LRT Line 1: Baclaran → Roosevelt\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Roosevelt\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}},{\"role\":\"stop\",\"rel\":10463195,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Baclaran\",\"name\":\"LRT Line 1: Baclaran → Monumento\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Monumento\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}}]",
+                "@id": "node/7569408477"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.98230820000,
+                    14.63601050000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/34012374",
+                "@relations": "[{\"role\":\"stop\",\"rel\":110418,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Roosevelt\",\"name\":\"LRT Line 1: Roosevelt → Baclaran\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Baclaran\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}},{\"role\":\"stop\",\"rel\":10463194,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Monumento\",\"name\":\"LRT Line 1: Monumento → Baclaran\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Baclaran\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}}]"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.00058840000,
+                    14.53895190000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5191404479",
+                "@relations": "[{\"role\":\"stop\",\"rel\":110418,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Roosevelt\",\"name\":\"LRT Line 1: Roosevelt → Baclaran\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Baclaran\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}},{\"role\":\"stop\",\"rel\":10463194,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Monumento\",\"name\":\"LRT Line 1: Monumento → Baclaran\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Baclaran\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}}]"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.98199780000,
+                    14.60534620000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@relations": "[{\"role\":\"stop\",\"rel\":8000260,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Baclaran\",\"name\":\"LRT Line 1: Baclaran → Roosevelt\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Roosevelt\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}},{\"role\":\"stop\",\"rel\":10463195,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Baclaran\",\"name\":\"LRT Line 1: Baclaran → Monumento\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Monumento\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}}]",
+                "@id": "node/7569408464"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.98204670000,
+                    14.60534290000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5191404478",
+                "@relations": "[{\"role\":\"stop\",\"rel\":110418,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Roosevelt\",\"name\":\"LRT Line 1: Roosevelt → Baclaran\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Baclaran\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}},{\"role\":\"stop\",\"rel\":10463194,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Monumento\",\"name\":\"LRT Line 1: Monumento → Baclaran\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Baclaran\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}}]"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.98243820000,
+                    14.61112010000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5191404480",
+                "@relations": "[{\"role\":\"stop\",\"rel\":110418,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Roosevelt\",\"name\":\"LRT Line 1: Roosevelt → Baclaran\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Baclaran\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}},{\"role\":\"stop\",\"rel\":10463194,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#008000\",\"from\":\"Monumento\",\"name\":\"LRT Line 1: Monumento → Baclaran\",\"network\":\"Manila LRT\",\"operator\":\"Light Rail Manila Corporation\",\"operator:wikidata\":\"Q65087474\",\"operator:wikipedia\":\"en:Light Rail Manila Corporation\",\"public_transport:version\":\"2\",\"ref\":\"1\",\"route\":\"light_rail\",\"to\":\"Baclaran\",\"type\":\"route\",\"website\":\"http://www.lrmc.com.ph\",\"wikidata\":\"Q4165124\"}}]"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.98132200000,
+                    14.59902770000
+                ]
+            }
+        }
+    ]
+}

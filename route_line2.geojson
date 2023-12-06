@@ -1,0 +1,1298 @@
+{
+    "type": "FeatureCollection",
+    "generator": "JOSM",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "air_conditioning": "yes",
+                "public_transport:version": "2",
+                "website": "https://www.lrta.gov.ph/",
+                "to": "Recto",
+                "type": "route",
+                "wikidata": "Q4165317",
+                "network": "LRT",
+                "name": "LRT Line 2: Antipolo → Recto",
+                "from": "Cubao",
+                "route": "subway",
+                "ref": "2",
+                "colour": "#800080",
+                "operator": "Light Rail Transit Authority",
+                "@id": "relation/110410"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        121.05300580000,
+                        14.62299020000
+                    ],
+                    [
+                        121.05302170000,
+                        14.62295840000
+                    ],
+                    [
+                        121.05302310000,
+                        14.62295560000
+                    ],
+                    [
+                        121.05213040000,
+                        14.62252240000
+                    ],
+                    [
+                        121.05212810000,
+                        14.62252700000
+                    ],
+                    [
+                        121.05210730000,
+                        14.62256860000
+                    ],
+                    [
+                        121.05300580000,
+                        14.62299020000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@relations": "[{\"role\":\"stop\",\"rel\":110410,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#800080\",\"from\":\"Cubao\",\"name\":\"LRT Line 2: Antipolo → Recto\",\"network\":\"LRT\",\"operator\":\"Light Rail Transit Authority\",\"public_transport:version\":\"2\",\"ref\":\"2\",\"route\":\"subway\",\"to\":\"Recto\",\"type\":\"route\",\"website\":\"https://www.lrta.gov.ph/\",\"wikidata\":\"Q4165317\"}}]",
+                "@id": "node/6269361358"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.10013830000,
+                    14.62039030000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@relations": "[{\"role\":\"stop\",\"rel\":110410,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#800080\",\"from\":\"Cubao\",\"name\":\"LRT Line 2: Antipolo → Recto\",\"network\":\"LRT\",\"operator\":\"Light Rail Transit Authority\",\"public_transport:version\":\"2\",\"ref\":\"2\",\"route\":\"subway\",\"to\":\"Recto\",\"type\":\"route\",\"website\":\"https://www.lrta.gov.ph/\",\"wikidata\":\"Q4165317\"}}]",
+                "@id": "node/8347084632"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.05215230000,
+                    14.62250800000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7577067126",
+                "@relations": "[{\"role\":\"stop\",\"rel\":8000264,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#800080\",\"from\":\"Recto\",\"name\":\"LRT Line 2: Recto → Antipolo\",\"network\":\"LRT\",\"operator\":\"Light Rail Transit Authority\",\"public_transport:version\":\"2\",\"ref\":\"2\",\"route\":\"subway\",\"to\":\"Cubao\",\"type\":\"route\",\"website\":\"https://www.lrta.gov.ph/\",\"wikidata\":\"Q4165317\"}}]"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.00503970000,
+                    14.60167850000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5397377397",
+                "@relations": "[{\"role\":\"stop\",\"rel\":8000264,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#800080\",\"from\":\"Recto\",\"name\":\"LRT Line 2: Recto → Antipolo\",\"network\":\"LRT\",\"operator\":\"Light Rail Transit Authority\",\"public_transport:version\":\"2\",\"ref\":\"2\",\"route\":\"subway\",\"to\":\"Cubao\",\"type\":\"route\",\"website\":\"https://www.lrta.gov.ph/\",\"wikidata\":\"Q4165317\"}}]"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.08631350000,
+                    14.62169340000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@relations": "[{\"role\":\"stop\",\"rel\":8000264,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#800080\",\"from\":\"Recto\",\"name\":\"LRT Line 2: Recto → Antipolo\",\"network\":\"LRT\",\"operator\":\"Light Rail Transit Authority\",\"public_transport:version\":\"2\",\"ref\":\"2\",\"route\":\"subway\",\"to\":\"Cubao\",\"type\":\"route\",\"website\":\"https://www.lrta.gov.ph/\",\"wikidata\":\"Q4165317\"}}]",
+                "@id": "node/7577067150"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.02606770000,
+                    14.61053620000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@relations": "[{\"role\":\"stop\",\"rel\":110410,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#800080\",\"from\":\"Cubao\",\"name\":\"LRT Line 2: Antipolo → Recto\",\"network\":\"LRT\",\"operator\":\"Light Rail Transit Authority\",\"public_transport:version\":\"2\",\"ref\":\"2\",\"route\":\"subway\",\"to\":\"Recto\",\"type\":\"route\",\"website\":\"https://www.lrta.gov.ph/\",\"wikidata\":\"Q4165317\"}}]",
+                "@id": "node/6245591606"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.07230070000,
+                    14.63082000000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@relations": "[{\"role\":\"stop\",\"rel\":110410,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#800080\",\"from\":\"Cubao\",\"name\":\"LRT Line 2: Antipolo → Recto\",\"network\":\"LRT\",\"operator\":\"Light Rail Transit Authority\",\"public_transport:version\":\"2\",\"ref\":\"2\",\"route\":\"subway\",\"to\":\"Recto\",\"type\":\"route\",\"website\":\"https://www.lrta.gov.ph/\",\"wikidata\":\"Q4165317\"}}]",
+                "@id": "node/4052997946"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.99247330000,
+                    14.60086620000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5524933067",
+                "@relations": "[{\"role\":\"stop_exit_only\",\"rel\":8000264,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#800080\",\"from\":\"Recto\",\"name\":\"LRT Line 2: Recto → Antipolo\",\"network\":\"LRT\",\"operator\":\"Light Rail Transit Authority\",\"public_transport:version\":\"2\",\"ref\":\"2\",\"route\":\"subway\",\"to\":\"Cubao\",\"type\":\"route\",\"website\":\"https://www.lrta.gov.ph/\",\"wikidata\":\"Q4165317\"}}]"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.12137970000,
+                    14.62477120000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/6269361350",
+                "@relations": "[{\"role\":\"stop_entry_only\",\"rel\":110410,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#800080\",\"from\":\"Cubao\",\"name\":\"LRT Line 2: Antipolo → Recto\",\"network\":\"LRT\",\"operator\":\"Light Rail Transit Authority\",\"public_transport:version\":\"2\",\"ref\":\"2\",\"route\":\"subway\",\"to\":\"Recto\",\"type\":\"route\",\"website\":\"https://www.lrta.gov.ph/\",\"wikidata\":\"Q4165317\"}}]"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.12135880000,
+                    14.62483480000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@relations": "[{\"role\":\"stop\",\"rel\":110410,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#800080\",\"from\":\"Cubao\",\"name\":\"LRT Line 2: Antipolo → Recto\",\"network\":\"LRT\",\"operator\":\"Light Rail Transit Authority\",\"public_transport:version\":\"2\",\"ref\":\"2\",\"route\":\"subway\",\"to\":\"Recto\",\"type\":\"route\",\"website\":\"https://www.lrta.gov.ph/\",\"wikidata\":\"Q4165317\"}}]",
+                "@id": "node/6245591605"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.06428320000,
+                    14.62796670000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@relations": "[{\"role\":\"stop_entry_only\",\"rel\":8000264,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#800080\",\"from\":\"Recto\",\"name\":\"LRT Line 2: Recto → Antipolo\",\"network\":\"LRT\",\"operator\":\"Light Rail Transit Authority\",\"public_transport:version\":\"2\",\"ref\":\"2\",\"route\":\"subway\",\"to\":\"Cubao\",\"type\":\"route\",\"website\":\"https://www.lrta.gov.ph/\",\"wikidata\":\"Q4165317\"}}]",
+                "@id": "node/7577067157"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.98400860000,
+                    14.60346370000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@relations": "[{\"role\":\"stop\",\"rel\":110410,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#800080\",\"from\":\"Cubao\",\"name\":\"LRT Line 2: Antipolo → Recto\",\"network\":\"LRT\",\"operator\":\"Light Rail Transit Authority\",\"public_transport:version\":\"2\",\"ref\":\"2\",\"route\":\"subway\",\"to\":\"Recto\",\"type\":\"route\",\"website\":\"https://www.lrta.gov.ph/\",\"wikidata\":\"Q4165317\"}}]",
+                "@id": "node/5397330366"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.03406710000,
+                    14.61350900000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@relations": "[{\"role\":\"stop\",\"rel\":110410,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#800080\",\"from\":\"Cubao\",\"name\":\"LRT Line 2: Antipolo → Recto\",\"network\":\"LRT\",\"operator\":\"Light Rail Transit Authority\",\"public_transport:version\":\"2\",\"ref\":\"2\",\"route\":\"subway\",\"to\":\"Recto\",\"type\":\"route\",\"website\":\"https://www.lrta.gov.ph/\",\"wikidata\":\"Q4165317\"}}]",
+                "@id": "node/5397330370"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.01702650000,
+                    14.60402810000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@relations": "[{\"role\":\"stop\",\"rel\":110410,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#800080\",\"from\":\"Cubao\",\"name\":\"LRT Line 2: Antipolo → Recto\",\"network\":\"LRT\",\"operator\":\"Light Rail Transit Authority\",\"public_transport:version\":\"2\",\"ref\":\"2\",\"route\":\"subway\",\"to\":\"Recto\",\"type\":\"route\",\"website\":\"https://www.lrta.gov.ph/\",\"wikidata\":\"Q4165317\"}}]",
+                "@id": "node/5530500543"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.08560430000,
+                    14.62255150000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7577067148",
+                "@relations": "[{\"role\":\"stop\",\"rel\":8000264,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#800080\",\"from\":\"Recto\",\"name\":\"LRT Line 2: Recto → Antipolo\",\"network\":\"LRT\",\"operator\":\"Light Rail Transit Authority\",\"public_transport:version\":\"2\",\"ref\":\"2\",\"route\":\"subway\",\"to\":\"Cubao\",\"type\":\"route\",\"website\":\"https://www.lrta.gov.ph/\",\"wikidata\":\"Q4165317\"}}]"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.04275370000,
+                    14.61857940000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7577067149",
+                "@relations": "[{\"role\":\"stop\",\"rel\":8000264,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#800080\",\"from\":\"Recto\",\"name\":\"LRT Line 2: Recto → Antipolo\",\"network\":\"LRT\",\"operator\":\"Light Rail Transit Authority\",\"public_transport:version\":\"2\",\"ref\":\"2\",\"route\":\"subway\",\"to\":\"Cubao\",\"type\":\"route\",\"website\":\"https://www.lrta.gov.ph/\",\"wikidata\":\"Q4165317\"}}]"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.03408220000,
+                    14.61347690000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5397325070",
+                "@relations": "[{\"role\":\"stop\",\"rel\":110410,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#800080\",\"from\":\"Cubao\",\"name\":\"LRT Line 2: Antipolo → Recto\",\"network\":\"LRT\",\"operator\":\"Light Rail Transit Authority\",\"public_transport:version\":\"2\",\"ref\":\"2\",\"route\":\"subway\",\"to\":\"Recto\",\"type\":\"route\",\"website\":\"https://www.lrta.gov.ph/\",\"wikidata\":\"Q4165317\"}}]"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.04273660000,
+                    14.61860500000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7577067125",
+                "@relations": "[{\"role\":\"stop\",\"rel\":8000264,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#800080\",\"from\":\"Recto\",\"name\":\"LRT Line 2: Recto → Antipolo\",\"network\":\"LRT\",\"operator\":\"Light Rail Transit Authority\",\"public_transport:version\":\"2\",\"ref\":\"2\",\"route\":\"subway\",\"to\":\"Cubao\",\"type\":\"route\",\"website\":\"https://www.lrta.gov.ph/\",\"wikidata\":\"Q4165317\"}}]"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.99248600000,
+                    14.60083020000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5397299816",
+                "@relations": "[{\"role\":\"stop\",\"rel\":8000264,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#800080\",\"from\":\"Recto\",\"name\":\"LRT Line 2: Recto → Antipolo\",\"network\":\"LRT\",\"operator\":\"Light Rail Transit Authority\",\"public_transport:version\":\"2\",\"ref\":\"2\",\"route\":\"subway\",\"to\":\"Cubao\",\"type\":\"route\",\"website\":\"https://www.lrta.gov.ph/\",\"wikidata\":\"Q4165317\"}}]"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.06519660000,
+                    14.62807510000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "LRT Line 2: Recto → Antipolo",
+                "air_conditioning": "yes",
+                "public_transport:version": "2",
+                "website": "https://www.lrta.gov.ph/",
+                "type": "route",
+                "wikidata": "Q4165317",
+                "from": "Recto",
+                "network": "LRT",
+                "to": "Cubao",
+                "route": "subway",
+                "ref": "2",
+                "colour": "#800080",
+                "@id": "relation/8000264",
+                "operator": "Light Rail Transit Authority"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        121.05218960000,
+                        14.62240420000
+                    ],
+                    [
+                        121.05218150000,
+                        14.62242040000
+                    ],
+                    [
+                        121.05216480000,
+                        14.62245380000
+                    ],
+                    [
+                        121.05305750000,
+                        14.62288700000
+                    ],
+                    [
+                        121.05307450000,
+                        14.62285550000
+                    ],
+                    [
+                        121.05308410000,
+                        14.62283700000
+                    ],
+                    [
+                        121.05218960000,
+                        14.62240420000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5397260361",
+                "@relations": "[{\"role\":\"stop\",\"rel\":8000264,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#800080\",\"from\":\"Recto\",\"name\":\"LRT Line 2: Recto → Antipolo\",\"network\":\"LRT\",\"operator\":\"Light Rail Transit Authority\",\"public_transport:version\":\"2\",\"ref\":\"2\",\"route\":\"subway\",\"to\":\"Cubao\",\"type\":\"route\",\"website\":\"https://www.lrta.gov.ph/\",\"wikidata\":\"Q4165317\"}}]"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.07329300000,
+                    14.63125990000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/8347084631",
+                "@relations": "[{\"role\":\"stop\",\"rel\":8000264,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#800080\",\"from\":\"Recto\",\"name\":\"LRT Line 2: Recto → Antipolo\",\"network\":\"LRT\",\"operator\":\"Light Rail Transit Authority\",\"public_transport:version\":\"2\",\"ref\":\"2\",\"route\":\"subway\",\"to\":\"Cubao\",\"type\":\"route\",\"website\":\"https://www.lrta.gov.ph/\",\"wikidata\":\"Q4165317\"}}]"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.05304060000,
+                    14.62289120000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@relations": "[{\"role\":\"stop_exit_only\",\"rel\":110410,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#800080\",\"from\":\"Cubao\",\"name\":\"LRT Line 2: Antipolo → Recto\",\"network\":\"LRT\",\"operator\":\"Light Rail Transit Authority\",\"public_transport:version\":\"2\",\"ref\":\"2\",\"route\":\"subway\",\"to\":\"Recto\",\"type\":\"route\",\"website\":\"https://www.lrta.gov.ph/\",\"wikidata\":\"Q4165317\"}}]",
+                "@id": "node/5397342978"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.98308750000,
+                    14.60364450000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "air_conditioning": "yes",
+                "public_transport:version": "2",
+                "website": "https://www.lrta.gov.ph/",
+                "to": "Recto",
+                "type": "route",
+                "wikidata": "Q4165317",
+                "network": "LRT",
+                "name": "LRT Line 2: Antipolo → Recto",
+                "from": "Cubao",
+                "route": "subway",
+                "ref": "2",
+                "colour": "#800080",
+                "operator": "Light Rail Transit Authority",
+                "@id": "relation/110410"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        121.12401720000,
+                        14.62538250000
+                    ],
+                    [
+                        121.12388860000,
+                        14.62535600000
+                    ],
+                    [
+                        121.12312520000,
+                        14.62519870000
+                    ],
+                    [
+                        121.12231860000,
+                        14.62503260000
+                    ],
+                    [
+                        121.12202570000,
+                        14.62497220000
+                    ],
+                    [
+                        121.12135880000,
+                        14.62483480000
+                    ],
+                    [
+                        121.11959300000,
+                        14.62447110000
+                    ],
+                    [
+                        121.11862380000,
+                        14.62427140000
+                    ],
+                    [
+                        121.11567300000,
+                        14.62364170000
+                    ],
+                    [
+                        121.10975550000,
+                        14.62239360000
+                    ],
+                    [
+                        121.10733770000,
+                        14.62188060000
+                    ],
+                    [
+                        121.10432800000,
+                        14.62125930000
+                    ],
+                    [
+                        121.10327270000,
+                        14.62103910000
+                    ],
+                    [
+                        121.10105050000,
+                        14.62058050000
+                    ],
+                    [
+                        121.10013830000,
+                        14.62039030000
+                    ],
+                    [
+                        121.09657980000,
+                        14.61964840000
+                    ],
+                    [
+                        121.09415100000,
+                        14.61912550000
+                    ],
+                    [
+                        121.09237410000,
+                        14.61876080000
+                    ],
+                    [
+                        121.09179380000,
+                        14.61865520000
+                    ],
+                    [
+                        121.09151160000,
+                        14.61863020000
+                    ],
+                    [
+                        121.09118960000,
+                        14.61863180000
+                    ],
+                    [
+                        121.09080340000,
+                        14.61867810000
+                    ],
+                    [
+                        121.09047110000,
+                        14.61875660000
+                    ],
+                    [
+                        121.09014910000,
+                        14.61886450000
+                    ],
+                    [
+                        121.08989610000,
+                        14.61898050000
+                    ],
+                    [
+                        121.08964620000,
+                        14.61912810000
+                    ],
+                    [
+                        121.08928290000,
+                        14.61937830000
+                    ],
+                    [
+                        121.08838140000,
+                        14.62005670000
+                    ],
+                    [
+                        121.08781400000,
+                        14.62048520000
+                    ],
+                    [
+                        121.08759990000,
+                        14.62065440000
+                    ],
+                    [
+                        121.08735270000,
+                        14.62086870000
+                    ],
+                    [
+                        121.08658710000,
+                        14.62159970000
+                    ],
+                    [
+                        121.08645860000,
+                        14.62172680000
+                    ],
+                    [
+                        121.08560430000,
+                        14.62255150000
+                    ],
+                    [
+                        121.08558170000,
+                        14.62257080000
+                    ],
+                    [
+                        121.08494830000,
+                        14.62313990000
+                    ],
+                    [
+                        121.08450410000,
+                        14.62346800000
+                    ],
+                    [
+                        121.08415130000,
+                        14.62377090000
+                    ],
+                    [
+                        121.08382720000,
+                        14.62407390000
+                    ],
+                    [
+                        121.08289400000,
+                        14.62501060000
+                    ],
+                    [
+                        121.08161050000,
+                        14.62652110000
+                    ],
+                    [
+                        121.08110110000,
+                        14.62719130000
+                    ],
+                    [
+                        121.08062270000,
+                        14.62790330000
+                    ],
+                    [
+                        121.07945050000,
+                        14.62959280000
+                    ],
+                    [
+                        121.07852520000,
+                        14.63095850000
+                    ],
+                    [
+                        121.07828310000,
+                        14.63128420000
+                    ],
+                    [
+                        121.07790960000,
+                        14.63169170000
+                    ],
+                    [
+                        121.07750590000,
+                        14.63204010000
+                    ],
+                    [
+                        121.07707810000,
+                        14.63233920000
+                    ],
+                    [
+                        121.07668380000,
+                        14.63247290000
+                    ],
+                    [
+                        121.07621710000,
+                        14.63251960000
+                    ],
+                    [
+                        121.07574170000,
+                        14.63243910000
+                    ],
+                    [
+                        121.07541250000,
+                        14.63231190000
+                    ],
+                    [
+                        121.07493710000,
+                        14.63212830000
+                    ],
+                    [
+                        121.07411300000,
+                        14.63172670000
+                    ],
+                    [
+                        121.07230070000,
+                        14.63082000000
+                    ],
+                    [
+                        121.07113030000,
+                        14.63023450000
+                    ],
+                    [
+                        121.07004000000,
+                        14.62973620000
+                    ],
+                    [
+                        121.06867750000,
+                        14.62911980000
+                    ],
+                    [
+                        121.06804310000,
+                        14.62884210000
+                    ],
+                    [
+                        121.06743160000,
+                        14.62856830000
+                    ],
+                    [
+                        121.06710970000,
+                        14.62846060000
+                    ],
+                    [
+                        121.06678850000,
+                        14.62838470000
+                    ],
+                    [
+                        121.06611460000,
+                        14.62826470000
+                    ],
+                    [
+                        121.06428320000,
+                        14.62796670000
+                    ],
+                    [
+                        121.06335600000,
+                        14.62781570000
+                    ],
+                    [
+                        121.06288390000,
+                        14.62769180000
+                    ],
+                    [
+                        121.06248430000,
+                        14.62755100000
+                    ],
+                    [
+                        121.06208660000,
+                        14.62736090000
+                    ],
+                    [
+                        121.06014670000,
+                        14.62640650000
+                    ],
+                    [
+                        121.05792360000,
+                        14.62529950000
+                    ],
+                    [
+                        121.05730350000,
+                        14.62499070000
+                    ],
+                    [
+                        121.05589740000,
+                        14.62429780000
+                    ],
+                    [
+                        121.05303520000,
+                        14.62293150000
+                    ],
+                    [
+                        121.05215230000,
+                        14.62250800000
+                    ],
+                    [
+                        121.05214050000,
+                        14.62250240000
+                    ],
+                    [
+                        121.05178260000,
+                        14.62233930000
+                    ],
+                    [
+                        121.04899170000,
+                        14.62111990000
+                    ],
+                    [
+                        121.04876220000,
+                        14.62102360000
+                    ],
+                    [
+                        121.04853460000,
+                        14.62093340000
+                    ],
+                    [
+                        121.04843600000,
+                        14.62089530000
+                    ],
+                    [
+                        121.04821600000,
+                        14.62080750000
+                    ],
+                    [
+                        121.04744380000,
+                        14.62052190000
+                    ],
+                    [
+                        121.04723240000,
+                        14.62044380000
+                    ],
+                    [
+                        121.04680730000,
+                        14.62029960000
+                    ],
+                    [
+                        121.04633000000,
+                        14.62012750000
+                    ],
+                    [
+                        121.04577600000,
+                        14.61995580000
+                    ],
+                    [
+                        121.04540730000,
+                        14.61983220000
+                    ],
+                    [
+                        121.04497480000,
+                        14.61970530000
+                    ],
+                    [
+                        121.04464680000,
+                        14.61960550000
+                    ],
+                    [
+                        121.04440370000,
+                        14.61952590000
+                    ],
+                    [
+                        121.04416040000,
+                        14.61942450000
+                    ],
+                    [
+                        121.04409100000,
+                        14.61939180000
+                    ],
+                    [
+                        121.04399990000,
+                        14.61934010000
+                    ],
+                    [
+                        121.04357040000,
+                        14.61910360000
+                    ],
+                    [
+                        121.04273660000,
+                        14.61860500000
+                    ],
+                    [
+                        121.04141540000,
+                        14.61778620000
+                    ],
+                    [
+                        121.04089450000,
+                        14.61748100000
+                    ],
+                    [
+                        121.03966920000,
+                        14.61675270000
+                    ],
+                    [
+                        121.03888010000,
+                        14.61628170000
+                    ],
+                    [
+                        121.03734460000,
+                        14.61539150000
+                    ],
+                    [
+                        121.03579530000,
+                        14.61449980000
+                    ],
+                    [
+                        121.03406710000,
+                        14.61350900000
+                    ],
+                    [
+                        121.03336120000,
+                        14.61309990000
+                    ],
+                    [
+                        121.03319050000,
+                        14.61300090000
+                    ],
+                    [
+                        121.03305620000,
+                        14.61293270000
+                    ],
+                    [
+                        121.03289810000,
+                        14.61286270000
+                    ],
+                    [
+                        121.03244540000,
+                        14.61267890000
+                    ],
+                    [
+                        121.02745580000,
+                        14.61102080000
+                    ],
+                    [
+                        121.02606160000,
+                        14.61056530000
+                    ],
+                    [
+                        121.02549250000,
+                        14.61037330000
+                    ],
+                    [
+                        121.02276460000,
+                        14.60946590000
+                    ],
+                    [
+                        121.02240090000,
+                        14.60925600000
+                    ],
+                    [
+                        121.02210450000,
+                        14.60901100000
+                    ],
+                    [
+                        121.02142480000,
+                        14.60834450000
+                    ],
+                    [
+                        121.02113350000,
+                        14.60807900000
+                    ],
+                    [
+                        121.02096880000,
+                        14.60793170000
+                    ],
+                    [
+                        121.02080010000,
+                        14.60777800000
+                    ],
+                    [
+                        121.01960190000,
+                        14.60658540000
+                    ],
+                    [
+                        121.01945460000,
+                        14.60643780000
+                    ],
+                    [
+                        121.01931430000,
+                        14.60629120000
+                    ],
+                    [
+                        121.01904520000,
+                        14.60601730000
+                    ],
+                    [
+                        121.01890450000,
+                        14.60587250000
+                    ],
+                    [
+                        121.01875980000,
+                        14.60572840000
+                    ],
+                    [
+                        121.01702650000,
+                        14.60402810000
+                    ],
+                    [
+                        121.01611020000,
+                        14.60312760000
+                    ],
+                    [
+                        121.01589260000,
+                        14.60294530000
+                    ],
+                    [
+                        121.01571780000,
+                        14.60284090000
+                    ],
+                    [
+                        121.01549960000,
+                        14.60275500000
+                    ],
+                    [
+                        121.01528040000,
+                        14.60269290000
+                    ],
+                    [
+                        121.01503230000,
+                        14.60264000000
+                    ],
+                    [
+                        121.01479120000,
+                        14.60260830000
+                    ],
+                    [
+                        121.01456540000,
+                        14.60258090000
+                    ],
+                    [
+                        121.00555380000,
+                        14.60176080000
+                    ],
+                    [
+                        121.00503990000,
+                        14.60171400000
+                    ],
+                    [
+                        121.00461200000,
+                        14.60167500000
+                    ],
+                    [
+                        121.00345890000,
+                        14.60157010000
+                    ],
+                    [
+                        121.00321770000,
+                        14.60153690000
+                    ],
+                    [
+                        121.00299970000,
+                        14.60149750000
+                    ],
+                    [
+                        121.00222870000,
+                        14.60134480000
+                    ],
+                    [
+                        121.00202450000,
+                        14.60130800000
+                    ],
+                    [
+                        121.00181920000,
+                        14.60127750000
+                    ],
+                    [
+                        121.00054210000,
+                        14.60112470000
+                    ],
+                    [
+                        121.00029890000,
+                        14.60108630000
+                    ],
+                    [
+                        121.00008300000,
+                        14.60102380000
+                    ],
+                    [
+                        120.99986810000,
+                        14.60093870000
+                    ],
+                    [
+                        120.99966680000,
+                        14.60083840000
+                    ],
+                    [
+                        120.99951820000,
+                        14.60077830000
+                    ],
+                    [
+                        120.99936710000,
+                        14.60072620000
+                    ],
+                    [
+                        120.99917480000,
+                        14.60069100000
+                    ],
+                    [
+                        120.99900290000,
+                        14.60066290000
+                    ],
+                    [
+                        120.99874370000,
+                        14.60065290000
+                    ],
+                    [
+                        120.99852760000,
+                        14.60067320000
+                    ],
+                    [
+                        120.99830160000,
+                        14.60073680000
+                    ],
+                    [
+                        120.99806930000,
+                        14.60080320000
+                    ],
+                    [
+                        120.99783760000,
+                        14.60085560000
+                    ],
+                    [
+                        120.99763970000,
+                        14.60088530000
+                    ],
+                    [
+                        120.99746100000,
+                        14.60087370000
+                    ],
+                    [
+                        120.99716800000,
+                        14.60082490000
+                    ],
+                    [
+                        120.99654780000,
+                        14.60064580000
+                    ],
+                    [
+                        120.99632900000,
+                        14.60059170000
+                    ],
+                    [
+                        120.99608380000,
+                        14.60058550000
+                    ],
+                    [
+                        120.99585170000,
+                        14.60060890000
+                    ],
+                    [
+                        120.99562300000,
+                        14.60066350000
+                    ],
+                    [
+                        120.99539450000,
+                        14.60074250000
+                    ],
+                    [
+                        120.99450870000,
+                        14.60111180000
+                    ],
+                    [
+                        120.99426460000,
+                        14.60117720000
+                    ],
+                    [
+                        120.99404260000,
+                        14.60121070000
+                    ],
+                    [
+                        120.99379890000,
+                        14.60121890000
+                    ],
+                    [
+                        120.99355460000,
+                        14.60119750000
+                    ],
+                    [
+                        120.99332590000,
+                        14.60113160000
+                    ],
+                    [
+                        120.99301860000,
+                        14.60103590000
+                    ],
+                    [
+                        120.99247330000,
+                        14.60086620000
+                    ],
+                    [
+                        120.99163080000,
+                        14.60060390000
+                    ],
+                    [
+                        120.99141110000,
+                        14.60054240000
+                    ],
+                    [
+                        120.99118740000,
+                        14.60051750000
+                    ],
+                    [
+                        120.99094380000,
+                        14.60052110000
+                    ],
+                    [
+                        120.99075500000,
+                        14.60055320000
+                    ],
+                    [
+                        120.99053770000,
+                        14.60060800000
+                    ],
+                    [
+                        120.99031780000,
+                        14.60069850000
+                    ],
+                    [
+                        120.98990470000,
+                        14.60089130000
+                    ],
+                    [
+                        120.98809830000,
+                        14.60173400000
+                    ],
+                    [
+                        120.98492000000,
+                        14.60324010000
+                    ],
+                    [
+                        120.98468070000,
+                        14.60333200000
+                    ],
+                    [
+                        120.98446620000,
+                        14.60340170000
+                    ],
+                    [
+                        120.98424770000,
+                        14.60345190000
+                    ],
+                    [
+                        120.98404020000,
+                        14.60349680000
+                    ],
+                    [
+                        120.98308750000,
+                        14.60364450000
+                    ],
+                    [
+                        120.98305590000,
+                        14.60364960000
+                    ],
+                    [
+                        120.98203130000,
+                        14.60381480000
+                    ],
+                    [
+                        120.98157310000,
+                        14.60388710000
+                    ],
+                    [
+                        120.98135080000,
+                        14.60391080000
+                    ],
+                    [
+                        120.98118820000,
+                        14.60392650000
+                    ],
+                    [
+                        120.98097120000,
+                        14.60393230000
+                    ],
+                    [
+                        120.98070460000,
+                        14.60392730000
+                    ],
+                    [
+                        120.98053450000,
+                        14.60394500000
+                    ],
+                    [
+                        120.98034610000,
+                        14.60397970000
+                    ],
+                    [
+                        120.98014460000,
+                        14.60403750000
+                    ],
+                    [
+                        120.97974190000,
+                        14.60419820000
+                    ],
+                    [
+                        120.97950700000,
+                        14.60428720000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@relations": "[{\"role\":\"stop\",\"rel\":110410,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#800080\",\"from\":\"Cubao\",\"name\":\"LRT Line 2: Antipolo → Recto\",\"network\":\"LRT\",\"operator\":\"Light Rail Transit Authority\",\"public_transport:version\":\"2\",\"ref\":\"2\",\"route\":\"subway\",\"to\":\"Recto\",\"type\":\"route\",\"website\":\"https://www.lrta.gov.ph/\",\"wikidata\":\"Q4165317\"}}]",
+                "@id": "node/5397330367"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.02606160000,
+                    14.61056530000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7577067127",
+                "@relations": "[{\"role\":\"stop\",\"rel\":8000264,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#800080\",\"from\":\"Recto\",\"name\":\"LRT Line 2: Recto → Antipolo\",\"network\":\"LRT\",\"operator\":\"Light Rail Transit Authority\",\"public_transport:version\":\"2\",\"ref\":\"2\",\"route\":\"subway\",\"to\":\"Cubao\",\"type\":\"route\",\"website\":\"https://www.lrta.gov.ph/\",\"wikidata\":\"Q4165317\"}}]"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.01704840000,
+                    14.60400320000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@relations": "[{\"role\":\"stop\",\"rel\":110410,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#800080\",\"from\":\"Cubao\",\"name\":\"LRT Line 2: Antipolo → Recto\",\"network\":\"LRT\",\"operator\":\"Light Rail Transit Authority\",\"public_transport:version\":\"2\",\"ref\":\"2\",\"route\":\"subway\",\"to\":\"Recto\",\"type\":\"route\",\"website\":\"https://www.lrta.gov.ph/\",\"wikidata\":\"Q4165317\"}}]",
+                "@id": "node/5397333275"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.00503990000,
+                    14.60171400000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5524933065",
+                "@relations": "[{\"role\":\"stop\",\"rel\":8000264,\"reltags\":{\"air_conditioning\":\"yes\",\"colour\":\"#800080\",\"from\":\"Recto\",\"name\":\"LRT Line 2: Recto → Antipolo\",\"network\":\"LRT\",\"operator\":\"Light Rail Transit Authority\",\"public_transport:version\":\"2\",\"ref\":\"2\",\"route\":\"subway\",\"to\":\"Cubao\",\"type\":\"route\",\"website\":\"https://www.lrta.gov.ph/\",\"wikidata\":\"Q4165317\"}}]"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.10102620000,
+                    14.62052590000
+                ]
+            }
+        }
+    ]
+}
