@@ -8,6 +8,8 @@ import pandas as pd
 import calendar
 import dash_bootstrap_components as dbc
 from shapely.geometry import LineString
+
+
 # Function to convert points to LineString
 def convert_points_to_linestring(geojson):
     points = [feature["geometry"]["coordinates"] for feature in geojson["features"]]
@@ -66,7 +68,6 @@ raw_data_ = pd.read_csv("Raw-Data-2016-2022.csv")
 
 # Initialize the Dash app
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
-server = app.server
 initial_lat = 14.5547  # Latitude for Makati
 initial_lon = 121.0244 # Longitude for Makati
 
@@ -79,16 +80,16 @@ app.layout = html.Div([
         dl.Map(center=[initial_lat, initial_lon], zoom=10, children=[
             dl.TileLayer(),
             # LineString layers for connecting lines
-            dl.GeoJSON(data=line1_linestring_geojson, options={'style': {'color': 'green', 'weight': 5}}),
-            dl.GeoJSON(data=line2_linestring_geojson, options={'style': {'color': 'purple', 'weight': 5}}),
-            dl.GeoJSON(data=line3_linestring_geojson, options={'style': {'color': 'blue', 'weight': 5}}),
-            *[dl.CircleMarker(center=coords, radius=5, color='green', fill=True, fillOpacity=1.0, children=[
+            dl.GeoJSON(data=line1_linestring_geojson, options={'style': {'color': '#4dc262', 'weight': 5}}),
+            dl.GeoJSON(data=line2_linestring_geojson, options={'style': {'color': '#972db8', 'weight': 5}}),
+            dl.GeoJSON(data=line3_linestring_geojson, options={'style': {'color': '#2596be', 'weight': 5}}),
+            *[dl.CircleMarker(center=coords, radius=5, color='#4dc262', fill=True, fillOpacity=1.0, children=[
             dl.Tooltip(name)
                 ]) for coords, name in line1_points],
-            *[dl.CircleMarker(center=coords, radius=5, color='purple', fill=True, fillOpacity=1.0, children=[
+            *[dl.CircleMarker(center=coords, radius=5, color='#972db8', fill=True, fillOpacity=1.0, children=[
             dl.Tooltip(name)
                 ]) for coords, name in line2_points],
-            *[dl.CircleMarker(center=coords, radius=5, color='blue', fill=True, fillOpacity=1.0, children=[
+            *[dl.CircleMarker(center=coords, radius=5, color='#2596be', fill=True, fillOpacity=1.0, children=[
             dl.Tooltip(name)
                 ]) for coords, name in line3_points],
         ], style={'width': '100%', 'height': '100vh'})
@@ -99,15 +100,15 @@ app.layout = html.Div([
             html.Div([html.H2("Average Number of Passengers of Each Station")],
                      style={'text-align': 'center'}),
             dcc.RadioItems(
-                id='line-selector',
-                options=[
-                    {'label': 'LRT1', 'value': 'LRT1'},
-                    {'label': 'LRT2', 'value': 'LRT2'},
-                    {'label': 'MRT3', 'value': 'MRT3'}
-                ],
-                value='LRT2',
-                labelStyle={'display': 'inline-block'}
-            ),
+            id='line-selector',
+            options=[
+                {'label': 'LRT-1', 'value': 'LRT1'},
+                {'label': 'LRT-2', 'value': 'LRT2'},
+                {'label': 'MRT-3', 'value': 'MRT3'}
+            ],
+            value='LRT-2',
+            labelStyle={'display': 'inline-block', 'margin-right': '15px'},  # Keep display as 'inline-block'
+        ),
             dcc.Dropdown(
                 id='station-selector',
                 value='Recto Station'
@@ -120,7 +121,7 @@ app.layout = html.Div([
                     {'label': 'Weekday', 'value': 'Weekday'}
                 ],
                 value='Year',
-                labelStyle={'display': 'inline-block'}
+                labelStyle={'display': 'inline-block', 'margin-right': '15px'}
             ),
             dcc.Graph(id='bar-chart', style={'height': '40vh'}),
             html.Br(),
@@ -163,11 +164,11 @@ def update_graph(selected_station, selected_time_category):
 
         line = filtered_data['Line'].iloc[0]
         if line == 'LRT2':
-            color = 'purple'
+            color = '#972db8'
         elif line == 'LRT1':
-            color = 'green'
+            color = '#4dc262'
         elif line == 'MRT3':
-            color = 'blue'
+            color = '#2596be'
         else:
             color = 'default_color'
 
