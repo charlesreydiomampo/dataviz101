@@ -64,8 +64,9 @@ mrt3_stations = data[data['Line'] == 'MRT3']['Station'].unique()
 
 # heatmap
 raw_data_ = pd.read_csv("Raw-Data-2016-2022.csv")
-raw_data_['date_'] = pd.to_datetime(raw_data_['date_'])
-raw_data_['weekday'] = raw_data_['date_'].dt.dayofweek
+raw_data_['Date'] = pd.to_datetime(raw_data_['Date'], dayfirst = True)
+raw_data_['weekday'] = raw_data_['Date'].dt.dayofweek
+raw_data_['weekday'] = raw_data_['weekday'].map(weekday_mapping)
 
 # Initialize the Dash app
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
