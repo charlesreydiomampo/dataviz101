@@ -1,0 +1,25 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "station_name": "Baclaran Station", "latitude": 14.534187, "longitude": 120.998312, "daily_ridership": 100 }, "geometry": { "type": "Point", "coordinates": [ 120.998312, 14.534187 ] } },
+{ "type": "Feature", "properties": { "station_name": "EDSA Station", "latitude": 14.539063, "longitude": 121.000687, "daily_ridership": 123 }, "geometry": { "type": "Point", "coordinates": [ 121.000687, 14.539063 ] } },
+{ "type": "Feature", "properties": { "station_name": "Libertad Station", "latitude": 14.547812, "longitude": 120.998563, "daily_ridership": 234 }, "geometry": { "type": "Point", "coordinates": [ 120.998563, 14.547812 ] } },
+{ "type": "Feature", "properties": { "station_name": "Gil Puyat Station", "latitude": 14.554188, "longitude": 120.997187, "daily_ridership": 123 }, "geometry": { "type": "Point", "coordinates": [ 120.997187, 14.554188 ] } },
+{ "type": "Feature", "properties": { "station_name": "Vito Cruz Station", "latitude": 14.563313, "longitude": 120.994812, "daily_ridership": 233 }, "geometry": { "type": "Point", "coordinates": [ 120.994812, 14.563313 ] } },
+{ "type": "Feature", "properties": { "station_name": "Quirino Station", "latitude": 14.570313, "longitude": 120.991563, "daily_ridership": 78 }, "geometry": { "type": "Point", "coordinates": [ 120.991563, 14.570313 ] } },
+{ "type": "Feature", "properties": { "station_name": "Pedro Gil Station", "latitude": 14.576562, "longitude": 120.988062, "daily_ridership": 99 }, "geometry": { "type": "Point", "coordinates": [ 120.988062, 14.576562 ] } },
+{ "type": "Feature", "properties": { "station_name": "United Nations Station", "latitude": 14.582562, "longitude": 120.984562, "daily_ridership": 456 }, "geometry": { "type": "Point", "coordinates": [ 120.984562, 14.582562 ] } },
+{ "type": "Feature", "properties": { "station_name": "Central Station", "latitude": 14.592813, "longitude": 120.981687, "daily_ridership": 433 }, "geometry": { "type": "Point", "coordinates": [ 120.981687, 14.592813 ] } },
+{ "type": "Feature", "properties": { "station_name": "Carriedo Station", "latitude": 14.599063, "longitude": 120.981313, "daily_ridership": 234 }, "geometry": { "type": "Point", "coordinates": [ 120.981313, 14.599063 ] } },
+{ "type": "Feature", "properties": { "station_name": "Doroteo Jose Station", "latitude": 14.605438, "longitude": 120.982062, "daily_ridership": 55 }, "geometry": { "type": "Point", "coordinates": [ 120.982062, 14.605438 ] } },
+{ "type": "Feature", "properties": { "station_name": "Bambang Station", "latitude": 14.611187, "longitude": 120.982438, "daily_ridership": 321 }, "geometry": { "type": "Point", "coordinates": [ 120.982438, 14.611187 ] } },
+{ "type": "Feature", "properties": { "station_name": "Tayuman Station", "latitude": 14.616688, "longitude": 120.982812, "daily_ridership": 213 }, "geometry": { "type": "Point", "coordinates": [ 120.982812, 14.616688 ] } },
+{ "type": "Feature", "properties": { "station_name": "Blumentritt Station", "latitude": 14.622687, "longitude": 120.982938, "daily_ridership": 286 }, "geometry": { "type": "Point", "coordinates": [ 120.982938, 14.622687 ] } },
+{ "type": "Feature", "properties": { "station_name": "Abad Santos Station", "latitude": 14.630562, "longitude": 120.981437, "daily_ridership": 32 }, "geometry": { "type": "Point", "coordinates": [ 120.981437, 14.630562 ] } },
+{ "type": "Feature", "properties": { "station_name": "R. Papa Station", "latitude": 14.636188, "longitude": 120.982313, "daily_ridership": 252 }, "geometry": { "type": "Point", "coordinates": [ 120.982313, 14.636188 ] } },
+{ "type": "Feature", "properties": { "station_name": "5th Avenue Station", "latitude": 14.644438, "longitude": 120.983563, "daily_ridership": 89 }, "geometry": { "type": "Point", "coordinates": [ 120.983563, 14.644438 ] } },
+{ "type": "Feature", "properties": { "station_name": "Monumento Station", "latitude": 14.654312, "longitude": 120.983937, "daily_ridership": 235 }, "geometry": { "type": "Point", "coordinates": [ 120.983937, 14.654312 ] } },
+{ "type": "Feature", "properties": { "station_name": "Balintawak Station", "latitude": 14.657312, "longitude": 121.003187, "daily_ridership": 23 }, "geometry": { "type": "Point", "coordinates": [ 121.003187, 14.657312 ] } },
+{ "type": "Feature", "properties": { "station_name": "Roosevelt Station", "latitude": 14.657563, "longitude": 121.021062, "daily_ridership": 652 }, "geometry": { "type": "Point", "coordinates": [ 121.021062, 14.657563 ] } }
+]
+}

@@ -1,0 +1,18 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "station_name": "Recto Station", "latitude": 14.603438, "longitude": 120.983563, "daily_ridership": 200 }, "geometry": { "type": "Point", "coordinates": [ 120.983563, 14.603438 ] } },
+{ "type": "Feature", "properties": { "station_name": "Legarda Station", "latitude": 14.600812, "longitude": 120.992563, "daily_ridership": 145 }, "geometry": { "type": "Point", "coordinates": [ 120.992563, 14.600812 ] } },
+{ "type": "Feature", "properties": { "station_name": "Pureza Station", "latitude": 14.601688, "longitude": 121.005188, "daily_ridership": 235 }, "geometry": { "type": "Point", "coordinates": [ 121.005188, 14.601688 ] } },
+{ "type": "Feature", "properties": { "station_name": "V. Mapa Station", "latitude": 14.604062, "longitude": 121.017187, "daily_ridership": 234 }, "geometry": { "type": "Point", "coordinates": [ 121.017187, 14.604062 ] } },
+{ "type": "Feature", "properties": { "station_name": "J. Ruiz Station", "latitude": 14.610563, "longitude": 121.026187, "daily_ridership": 136 }, "geometry": { "type": "Point", "coordinates": [ 121.026187, 14.610563 ] } },
+{ "type": "Feature", "properties": { "station_name": "Gilmore Station", "latitude": 14.613563, "longitude": 121.034188, "daily_ridership": 764 }, "geometry": { "type": "Point", "coordinates": [ 121.034188, 14.613563 ] } },
+{ "type": "Feature", "properties": { "station_name": "Betty Go-Belmonte Station", "latitude": 14.618562, "longitude": 121.042812, "daily_ridership": 245 }, "geometry": { "type": "Point", "coordinates": [ 121.042812, 14.618562 ] } },
+{ "type": "Feature", "properties": { "station_name": "Araneta Center-Cubao Station", "latitude": 14.622687, "longitude": 121.052813, "daily_ridership": 1324 }, "geometry": { "type": "Point", "coordinates": [ 121.052813, 14.622687 ] } },
+{ "type": "Feature", "properties": { "station_name": "Anonas Station", "latitude": 14.627937, "longitude": 121.064688, "daily_ridership": 5657 }, "geometry": { "type": "Point", "coordinates": [ 121.064688, 14.627937 ] } },
+{ "type": "Feature", "properties": { "station_name": "Katipunan Station", "latitude": 14.630813, "longitude": 121.072688, "daily_ridership": 4634 }, "geometry": { "type": "Point", "coordinates": [ 121.072688, 14.630813 ] } },
+{ "type": "Feature", "properties": { "station_name": "Santolan Station", "latitude": 14.622063, "longitude": 121.085938, "daily_ridership": 35332 }, "geometry": { "type": "Point", "coordinates": [ 121.085938, 14.622063 ] } },
+{ "type": "Feature", "properties": { "station_name": "Marikina Station", "latitude": 14.620437, "longitude": 121.100313, "daily_ridership": 2632 }, "geometry": { "type": "Point", "coordinates": [ 121.100313, 14.620437 ] } },
+{ "type": "Feature", "properties": { "station_name": "Antipolo Station", "latitude": 14.624813, "longitude": 121.121313, "daily_ridership": 132435 }, "geometry": { "type": "Point", "coordinates": [ 121.121313, 14.624813 ] } }
+]
+}
