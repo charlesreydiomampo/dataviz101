@@ -66,7 +66,7 @@ mrt3_stations = data[data['Line'] == 'MRT3']['Station'].unique()
 raw_data_ = pd.read_csv("Raw-Data-2016-2022.csv")
 raw_data_['Date'] = pd.to_datetime(raw_data_['Date'], dayfirst = True)
 raw_data_['weekday'] = raw_data_['Date'].dt.dayofweek
-raw_data_['weekday'] = raw_data_['weekday'].map(weekday_mapping)
+#raw_data_['weekday'] = raw_data_['weekday'].map(weekday_mapping)
 
 # Initialize the Dash app
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
@@ -192,7 +192,12 @@ def update_output(selected_station, selected_line, time_category):
         heatmap_data = df[df["Station"] == selected_station]
         fig = px.imshow(heatmap_data.pivot_table(index="Time", columns="weekday", values="Value", aggfunc="sum"))
         fig.update_xaxes(side="bottom", title="Day of the Week")
-        fig.update_layout(title={'text': f'Hourly Heatmap for {selected_station}'}, title_x=0.5)
+        fig.update_layout(title={'text': f'Hourly Heatmap for {selected_station}'}, title_x=0.5,
+                 xaxis = dict(
+                     tickmode = 'array',
+                     tickvals = [0, 1, 2, 3, 4, 5, 6],
+                     ticktext = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+    ))
     else:
         df = data[data['Line'] == selected_line]
         
