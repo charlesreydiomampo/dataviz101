@@ -137,7 +137,8 @@ app.layout = html.Div([
             ),
             dcc.Graph(id='bar-chart', style={'height': '40vh'}),
             html.Br(),
-            dcc.Graph(id='heat-map', style={'height': '40vh'})
+            dcc.Graph(id='heat-map', style={'height': '40vh'}),
+            dcc.Graph(id='line-graph', style={'height': '40vh'})
         ], style={'width': '50%', 'float': 'right'})
     ], style={'display': 'flex', 'width': '100%'})
 ])
