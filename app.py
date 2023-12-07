@@ -81,7 +81,7 @@ app.layout = html.Div([
     html.Div([
         # Map container
         html.Div([
-            dl.Map(center=[initial_lat, initial_lon], zoom=11, children=[
+            dl.Map(center=[initial_lat, initial_lon], zoom=14, children=[
                 dl.TileLayer(),
                 # LineString layers for connecting lines
                 dl.GeoJSON(data=route_line1_geojson, options={'style': {'color': '#4dc262', 'weight': 5}}),
