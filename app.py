@@ -72,8 +72,8 @@ raw_data_['weekday'] = raw_data_['Date'].dt.dayofweek
 # Initialize the Dash app
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 server = app.server
-initial_lat = 14.5547  # Latitude for Makati
-initial_lon = 121.0244  # Longitude for Makati
+initial_lat = 14.58901 #14.5547  # Latitude for Makati
+initial_lon = 120.95788 #121.0244  # Longitude for Makati
 
 # Define the layout of the app
 app.layout = html.Div([
@@ -81,7 +81,7 @@ app.layout = html.Div([
     html.Div([
         # Map container
         html.Div([
-            dl.Map(center=[initial_lat, initial_lon], zoom=20, children=[
+            dl.Map(center=[initial_lat, initial_lon], zoom=11, children=[
                 dl.TileLayer(),
                 # LineString layers for connecting lines
                 dl.GeoJSON(data=route_line1_geojson, options={'style': {'color': '#4dc262', 'weight': 5}}),
