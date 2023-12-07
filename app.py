@@ -44,7 +44,8 @@ line3_points = [(feature['geometry']['coordinates'][::-1], feature['properties']
 
 # Load and process the data for the chart
 # Replace 'data.csv' with the path to your CSV file
-data = pd.read_excel('data.xlsx')
+#data = pd.read_excel('data.xlsx')
+data = pd.read_csv('data.csv')
 data['Date'] = pd.to_datetime(data['Date'])
 data['Year'] = data['Date'].dt.year
 data['Month'] = data['Date'].dt.month
