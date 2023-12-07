@@ -73,7 +73,7 @@ raw_data_['weekday'] = raw_data_['Date'].dt.dayofweek
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 server = app.server
 initial_lat = 14.5547 #14.58901 # Latitude for Makati
-initial_lon = 121.0244 #120.95788  # Longitude for Makati
+initial_lon = 121.0316 #120.95788  # Longitude for Makati
 
 # Define the layout of the app
 app.layout = html.Div([
