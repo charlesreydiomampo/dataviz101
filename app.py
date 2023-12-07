@@ -72,8 +72,8 @@ raw_data_['weekday'] = raw_data_['Date'].dt.dayofweek
 # Initialize the Dash app
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 server = app.server
-initial_lat = 14.58901 #14.5547  # Latitude for Makati
-initial_lon = 120.95788 #121.0244  # Longitude for Makati
+initial_lat = 14.5547 #14.58901 # Latitude for Makati
+initial_lon = 121.0244 #120.95788  # Longitude for Makati
 
 # Define the layout of the app
 app.layout = html.Div([
@@ -81,7 +81,7 @@ app.layout = html.Div([
     html.Div([
         # Map container
         html.Div([
-            dl.Map(center=[initial_lat, initial_lon], zoom=14, children=[
+            dl.Map(center=[initial_lat, initial_lon], zoom=13, children=[
                 dl.TileLayer(),
                 # LineString layers for connecting lines
                 dl.GeoJSON(data=route_line1_geojson, options={'style': {'color': '#4dc262', 'weight': 5}}),
@@ -110,12 +110,12 @@ app.layout = html.Div([
                     {'label': 'LRT-2', 'value': 'LRT2'},
                     {'label': 'MRT-3', 'value': 'MRT3'}
                 ],
-                value='LRT-2',
+                value='LRT1',
                 labelStyle={'display': 'inline-block', 'margin-right': '15px'},  # Keep display as 'inline-block'
             ),
             dcc.Dropdown(
                 id='station-selector',
-                value='Recto Station'
+                value='Baclaran'
             ),
             dcc.RadioItems(
                 id='time-category-selector',
