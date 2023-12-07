@@ -40,9 +40,13 @@ with open('route_line2.geojson') as f:
 with open('route_line3.geojson') as f:
     route_line3_geojson = json.load(f)
 
-line1_points = [(feature['geometry']['coordinates'][::-1], feature['properties']['station_name']) for feature in route_line1_geojson['features']]
-line2_points = [(feature['geometry']['coordinates'][::-1], feature['properties']['station_name']) for feature in route_line2_geojson['features']]
-line3_points = [(feature['geometry']['coordinates'][::-1], feature['properties']['station_name']) for feature in route_line3_geojson['features']]
+#line1_points = [(feature['geometry']['coordinates'][::-1], feature['properties']['station_name']) for feature in route_line1_geojson['features']]
+#line2_points = [(feature['geometry']['coordinates'][::-1], feature['properties']['station_name']) for feature in route_line2_geojson['features']]
+#line3_points = [(feature['geometry']['coordinates'][::-1], feature['properties']['station_name']) for feature in route_line3_geojson['features']]
+
+line1_points = [(feature['geometry']['coordinates'][::-1], feature['properties']['from']) for feature in route_line1_geojson['features']]
+line2_points = [(feature['geometry']['coordinates'][::-1], feature['properties']['from']) for feature in route_line2_geojson['features']]
+line3_points = [(feature['geometry']['coordinates'][::-1], feature['properties']['from']) for feature in route_line3_geojson['features']]
 
 # Load and process the data for the chart
 
