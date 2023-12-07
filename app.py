@@ -32,12 +32,13 @@ with open('line2.geojson') as f:
 with open('line3.geojson') as f:
     line3_geojson = json.load(f)
 
-with open('line1.geojson') as f:
-    line1_linestring_geojson = json.load(f)
-with open('line2.geojson') as f:
-    line2_linestring_geojson = json.load(f)
-with open('line3.geojson') as f:
-    line3_linestring_geojson = json.load(f)
+# Load the GeoJSON data for LineStrings
+with open('route_line1.geojson') as f:
+    route_line1_geojson = json.load(f)
+with open('route_line2.geojson') as f:
+    route_line2_geojson = json.load(f)
+with open('route_line3.geojson') as f:
+    route_line3_geojson = json.load(f)
 
 line1_points = [(feature['geometry']['coordinates'][::-1], feature['properties']['station_name']) for feature in line1_geojson['features']]
 line2_points = [(feature['geometry']['coordinates'][::-1], feature['properties']['station_name']) for feature in line2_geojson['features']]
@@ -93,9 +94,9 @@ app.layout = html.Div([
             dl.Map(center=[initial_lat, initial_lon], zoom=13, children=[
                 dl.TileLayer(),
                 # LineString layers for connecting lines
-                dl.GeoJSON(data=line1_linestring_geojson, options={'style': {'color': '#4dc262', 'weight': 5}}),
-                dl.GeoJSON(data=line2_linestring_geojson, options={'style': {'color': '#972db8', 'weight': 5}}),
-                dl.GeoJSON(data=line3_linestring_geojson, options={'style': {'color': '#2596be', 'weight': 5}}),
+                dl.GeoJSON(data=route_line1_geojson, options={'style': {'color': '#4dc262', 'weight': 5}}),
+                dl.GeoJSON(data=route_line2_geojson, options={'style': {'color': '#972db8', 'weight': 5}}),
+                dl.GeoJSON(data=route_line3_geojson, options={'style': {'color': '#2596be', 'weight': 5}}),
                 # CircleMarker layers for line points
                 *[dl.CircleMarker(center=coords, radius=5, color='#4dc262', fill=True, fillOpacity=1.0, children=[
                     dl.Tooltip(name)
