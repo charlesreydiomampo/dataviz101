@@ -242,7 +242,7 @@ def update_output(selected_station, selected_line, time_category):
 
 
 
-line_colors = {'MRT3': '#2596be', 'LRT2': '#972db8', 'LRT1': '#4dc262'}
+line_colors = {'LRT1': '#4dc262', 'LRT2': '#972db8', 'MRT3': '#2596be'}
 # Define callback to update graph based on selected line option
 @app.callback(
     Output('line-graph', 'figure'),
