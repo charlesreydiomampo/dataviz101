@@ -92,7 +92,7 @@ app.layout = html.Div([
         # Map container at 50% height
         html.Div([
             dl.Map(center=[initial_lat, initial_lon], zoom=13, children=[
-                children=dl.Popup("I am a popup"),
+                #children=dl.Popup("I am a popup"),
                 dl.TileLayer(),
                 # LineString layers for connecting lines
                 dl.GeoJSON(data=route_line1_geojson, options={'style': {'color': '#4dc262', 'weight': 5}}),
