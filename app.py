@@ -25,12 +25,12 @@ def convert_points_to_linestring(geojson):
 
 
 # Load the GeoJSON data
-with open('line1.geojson') as f:
-    line1_geojson = json.load(f)
-with open('line2.geojson') as f:
-    line2_geojson = json.load(f)
-with open('line3.geojson') as f:
-    line3_geojson = json.load(f)
+#with open('line1.geojson') as f:
+#    line1_geojson = json.load(f)
+#with open('line2.geojson') as f:
+#    line2_geojson = json.load(f)
+#with open('line3.geojson') as f:
+#    line3_geojson = json.load(f)
 
 # Load the GeoJSON data for LineStrings
 with open('route_line1.geojson') as f:
