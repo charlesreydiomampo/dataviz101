@@ -135,7 +135,7 @@ app.layout = html.Div([
                 {'label': 'LRT-2', 'value': 'LRT2'},
                 {'label': 'MRT-3', 'value': 'MRT3'}
             ],
-            value='LRT2',
+            value='LRT1',
             labelStyle={'display': 'inline-block', 'margin-right': '15px'},  # Keep display as 'inline-block'
         ),
         dcc.Dropdown(
