@@ -8,6 +8,7 @@ import pandas as pd
 import calendar
 import dash_bootstrap_components as dbc
 from shapely.geometry import LineString
+import plotly.graph_objs as go
 
 # Function to convert points to LineString
 def convert_points_to_linestring(geojson):
@@ -63,6 +64,12 @@ lrt1_stations = data[data['Line'] == 'LRT1']['Station'].unique()
 lrt2_stations = data[data['Line'] == 'LRT2']['Station'].unique()
 mrt3_stations = data[data['Line'] == 'MRT3']['Station'].unique()
 
+data['Quarter'] = data['Date'].dt.to_period('Q')
+grouped_data = data.groupby(['Quarter', 'Line'])['Value'].mean().reset_index()
+mrt3_data = grouped_data[grouped_data['Line'] == 'MRT3']
+lrt2_data = grouped_data[grouped_data['Line'] == 'LRT2']
+lrt1_data = grouped_data[grouped_data['Line'] == 'LRT1']
+
 # heatmap
 raw_data_ = pd.read_csv("Raw-Data-2016-2022.csv")
 raw_data_['Date'] = pd.to_datetime(raw_data_['Date'], dayfirst = True)
@@ -70,7 +77,8 @@ raw_data_['weekday'] = raw_data_['Date'].dt.dayofweek
 #raw_data_['weekday'] = raw_data_['weekday'].map(weekday_mapping)
 
 # Initialize the Dash app
-app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+#app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+app = dash.Dash(__name__, suppress_callback_exceptions=True, external_stylesheets=[dbc.themes.BOOTSTRAP])
 server = app.server
 initial_lat = 14.5547 #14.58901 # Latitude for Makati
 initial_lon = 121.03723 #120.95788  # Longitude for Makati
@@ -133,6 +141,49 @@ app.layout = html.Div([
         ], style={'width': '50%', 'float': 'right'})
     ], style={'display': 'flex', 'width': '100%'})
 ])
+
+line_colors = {'MRT3': '#2596be', 'LRT2': '#972db8', 'LRT1': '#4dc262'}
+# Define callback to update graph based on selected line option
+@app.callback(
+    Output('line-graph', 'figure'),
+    [Input('line-option', 'value')]
+)
+def update_graph(line_option):
+    traces = []
+    if line_option == 'MRT3' or line_option == 'All':
+        traces.append(go.Scatter(
+            x=mrt3_data['Quarter'].dt.to_timestamp(),
+            y=mrt3_data['Value'],
+            mode='lines',
+            name='MRT-3',
+            line=dict(color=line_colors['MRT3'])
+        ))
+    if line_option == 'LRT2' or line_option == 'All':
+        traces.append(go.Scatter(
+            x=lrt2_data['Quarter'].dt.to_timestamp(),
+            y=lrt2_data['Value'],
+            mode='lines',
+            name='LRT-2',
+            line=dict(color=line_colors['LRT2'])
+        ))
+    if line_option == 'LRT1' or line_option == 'All':
+        traces.append(go.Scatter(
+            x=lrt1_data['Quarter'].dt.to_timestamp(),
+            y=lrt1_data['Value'],
+            mode='lines',
+            name='LRT-1',
+            line=dict(color=line_colors['LRT1'])
+        ))
+
+    layout = go.Layout(
+        title='Average Number of Passengers Everyday over Year',
+        xaxis={'title': 'Timeline'},
+        height=300, 
+        yaxis={'title': 'Number of Passengers'},
+        margin={'l': 40, 'b': 40, 't': 50, 'r': 10},
+        hovermode='closest'
+    )
+    return {'data': traces, 'layout': layout}
 
 # Callbacks for updating the chart
 @app.callback(
