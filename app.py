@@ -125,10 +125,10 @@ app.layout = html.Div([
             dcc.RadioItems(
                 id='line-option',
                 options=[
+                    {'label': 'All', 'value': 'All'},
                     {'label': 'LRT-1', 'value': 'LRT1'},
                     {'label': 'LRT-2', 'value': 'LRT2'},
-                    {'label': 'MRT-3', 'value': 'MRT3'},
-                    {'label': 'All', 'value': 'All'}
+                    {'label': 'MRT-3', 'value': 'MRT3'}
                 ],
                 value='All',  # Default value
                 labelStyle={'display': 'inline-block', 'margin-right': '15px'}
