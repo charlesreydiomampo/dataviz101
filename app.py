@@ -44,10 +44,6 @@ with open('route_line3.geojson') as f:
 #line2_points = [(feature['geometry']['coordinates'][::-1], feature['properties']['station_name']) for feature in route_line2_geojson['features']]
 #line3_points = [(feature['geometry']['coordinates'][::-1], feature['properties']['station_name']) for feature in route_line3_geojson['features']]
 
-line1_points = [(feature['geometry']['coordinates'][::-1], feature['properties']['from']) for feature in route_line1_geojson['features']]
-line2_points = [(feature['geometry']['coordinates'][::-1], feature['properties']['from']) for feature in route_line2_geojson['features']]
-line3_points = [(feature['geometry']['coordinates'][::-1], feature['properties']['from']) for feature in route_line3_geojson['features']]
-
 # Load and process the data for the chart
 
 data = pd.read_csv("data.csv")
@@ -118,12 +114,12 @@ app.layout = html.Div([
             dcc.RadioItems(
                 id='line-option',
                 options=[
-                    {'label': 'MRT-3', 'value': 'MRT3'},
-                    {'label': 'LRT-2', 'value': 'LRT2'},
                     {'label': 'LRT-1', 'value': 'LRT1'},
+                    {'label': 'LRT-2', 'value': 'LRT2'},
+                    {'label': 'MRT-3', 'value': 'MRT3'},
                     {'label': 'All', 'value': 'All'}
                 ],
-                value='MRT3',  # Default value
+                value='All',  # Default value
                 labelStyle={'display': 'inline-block', 'margin-right': '15px'}
             ),
             dcc.Graph(id='line-graph'),
