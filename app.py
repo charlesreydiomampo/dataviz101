@@ -98,16 +98,17 @@ app.layout = html.Div([
                 dl.GeoJSON(data=route_line1_geojson, options={'style': {'color': '#4dc262', 'weight': 5}}),
                 dl.GeoJSON(data=route_line2_geojson, options={'style': {'color': '#972db8', 'weight': 5}}),
                 dl.GeoJSON(data=route_line3_geojson, options={'style': {'color': '#2596be', 'weight': 5}}),
-                # CircleMarker layers for line points
-                *[dl.CircleMarker(center=coords, radius=5, color='#4dc262', fill=True, fillOpacity=1.0, symbol='', children=[
-                    dl.Tooltip(name)
-                ]) for coords, name in line1_points],
-                *[dl.CircleMarker(center=coords, radius=5, color='#972db8', fill=True, fillOpacity=1.0, symbol='', children=[
-                    dl.Tooltip(name)
-                ]) for coords, name in line2_points],
-                *[dl.CircleMarker(center=coords, radius=5, color='#2596be', fill=True, fillOpacity=1.0, symbol='', children=[
-                    dl.Tooltip(name)
-                ]) for coords, name in line3_points],
+                # CircleMarker layers for line points without pins
+                #*[dl.CircleMarker(center=coords, radius=5, color='#4dc262', fill=True, fillOpacity=1.0, symbol='', children=[
+                #    dl.Tooltip(name)
+                #]) for coords, name in line1_points],
+                #*[dl.CircleMarker(center=coords, radius=5, color='#972db8', fill=True, fillOpacity=1.0, symbol='', children=[
+                #    dl.Tooltip(name)
+                #]) for coords, name in line2_points],
+                #*[dl.CircleMarker(center=coords, radius=5, color='#2596be', fill=True, fillOpacity=1.0, symbol='', children=[
+                #    dl.Tooltip(name)
+                #]) for coords, name in line3_points],
+                # with pins
                 #*[dl.CircleMarker(center=coords, radius=5, color='#4dc262', fill=True, fillOpacity=1.0, children=[
                 #    dl.Tooltip(name)
                 #]) for coords, name in line1_points],
